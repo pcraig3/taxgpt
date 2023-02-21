@@ -4,10 +4,7 @@
   - Meta descriptions
   - Meta pictures
   - OG tags
-- Page: About
-- Page: Resources
 - Generic 404 page
-  - Get rid of 404 errors
 - Add Github hash as part of auto deploy
 - Security headers
 - Github actions autodeploy
@@ -16,11 +13,7 @@
 - "current" in the nav
 - Focus styles
 - Do we need a landing homepage?
-- Favicon
-- Deploy it
-- Get a dockerfile
 - Connect to ChatGPT
-- Pull in the quiz via iframe
 - Try out some other fonts
 - Make the menu collapse
 - Does it work on your phone?
@@ -30,6 +23,13 @@
 
 # DONE
 
+- Page: About
+- Page: Resources
+- Favicon
+- Deploy it
+- Get a Dockerfile
+- Pull in the quiz via iframe
+  - Fullscreen CSS
 - Add logo
 - Get domain
 - Show some basic pages
