@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`container`}>
-        <h1>TaxGPT</h1>
+        <h1>Typography</h1>
         <div>
           <p>
             The purpose of this HTML is to help determine what default settings are with CSS and to
