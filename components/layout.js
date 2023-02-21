@@ -20,16 +20,15 @@ export default function Layout({ children }) {
         <nav>
           <ul>
             <li>
-              <Link href="/about">About</Link>
+              <Link href="/pages/about">About</Link>
             </li>
             <li>
-              <Link href="/resources">Resources</Link>
+              <Link href="/pages/resources">Resources</Link>
             </li>
           </ul>
         </nav>
       </header>
-      <main className={openSans.className}>{children}</main>
-      <footer className={openSans.className}>I am the footer</footer>
+      <main className={`container ${openSans.className}`}>{children}</main>
     </>
   )
 }
