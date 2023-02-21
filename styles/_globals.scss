@@ -8,6 +8,13 @@
 }
 
 html,
+body,
+div#__next,
+div#__next > div {
+height: 100vh;
+}
+
+html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
@@ -50,12 +57,34 @@ article {
   @include mixins.visually-hidden;
 }
 
-.container, header, footer {
+.container {
   @include mixins.container;
-  margin-top: vars.$space-xl;
-  margin-bottom: vars.$space-xl;
+
+  display: flex;
+  flex-direction: column;
+
+  header {
+    flex-grow: 0;
+  }
+
+  main {
+    flex-grow: 1;
+  }
+}
+
+main.index {
+  display: flex;
+  flex-direction: column;
+
+  .chat-container {
+    flex-grow: 1;
+  }
 }
 
 .flex-wrapper {
   @include mixins.flex-wrapper;
+}
+
+body * {
+  outline: 1px solid green;
 }

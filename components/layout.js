@@ -7,28 +7,30 @@ import { Open_Sans } from '@next/font/google'
 
 const openSans = Open_Sans({ subsets: ['latin'] })
 
-export default function Layout({ children }) {
+export default function Layout({ children, mainClass = '' }) {
   return (
     <>
-      <header className={openSans.className}>
-        <div className="site-title heading">
-          <Link href="/">
-            <Image src={logo} alt="Logo" width={40} height={40} />
-            <span>TaxGPT</span>
-          </Link>
-        </div>
-        <nav>
-          <ul>
-            <li>
-              <Link href="/pages/about">About</Link>
-            </li>
-            <li>
-              <Link href="/pages/resources">Resources</Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main className={`container ${openSans.className}`}>{children}</main>
+      <div className="container">
+        <header className={openSans.className}>
+          <div className="site-title heading">
+            <Link href="/">
+              <Image src={logo} alt="Logo" width={40} height={40} />
+              <span>TaxGPT</span>
+            </Link>
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <Link href="/pages/about">About</Link>
+              </li>
+              <li>
+                <Link href="/pages/resources">Resources</Link>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <main className={`${mainClass} ${openSans.className}`}>{children}</main>
+      </div>
     </>
   )
 }
