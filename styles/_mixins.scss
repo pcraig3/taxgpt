@@ -1,0 +1,139 @@
+@use "./vars";
+
+/* Mixins are compiled ahead of time, so we can't use CSS vars in our mq mixins */
+$desktop-screen: 1200px;
+$desktop-container: 1170px;
+$tablet-screen: 992px;
+$tablet-container: 970px;
+$mobile-screen: 768px;
+$mobile-container: 750px;
+
+@mixin mobile {
+  @media (max-width: #{$mobile-screen}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$mobile-screen}) {
+    @content;
+  }
+}
+
+@mixin tablet-mobile {
+  @media (max-width: #{$tablet-screen}) {
+    @content;
+  }
+}
+
+@mixin tablet-only {
+  @media (min-width: #{$mobile-screen}) and (max-width: #{$tablet-screen - 1}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$tablet-screen}) {
+    @content;
+  }
+}
+
+@mixin desktop-xl {
+  @media (min-width: #{$desktop-screen}) {
+    @content;
+  }
+}
+
+@mixin visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  border: 0 !important;
+  white-space: nowrap !important;
+}
+
+@mixin container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: vars.$space-lg;
+  padding-right: vars.$space-lg;
+
+  @include tablet {
+    max-width: $mobile-container;
+
+    padding-left: vars.$space-xxxl;
+    padding-right: vars.$space-xxxl;
+  }
+
+  @include desktop {
+    max-width: $tablet-container;
+  }
+
+  @include desktop-xl {
+    max-width: $desktop-container;
+  }
+}
+
+@mixin flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  @include mobile {
+    flex-direction: column;
+  }
+
+  @include tablet {
+    flex-direction: row;
+    align-items: baseline;
+  }
+}
+
+@mixin logo-container {
+  @include container;
+  margin-top: vars.$space-xxl;
+  margin-bottom: vars.$space-xxl;
+}
+
+/* licked from gov.uk 😈 */
+@mixin focus {
+  outline: 3px solid transparent;
+  color: vars.$color-black !important;
+  background-color: vars.$color-focus;
+  -webkit-box-shadow: 0 -2px vars.$color-focus, 0 4px vars.$color-black;
+  box-shadow: 0 -2px vars.$color-focus, 0 4px vars.$color-black;
+  text-decoration: none;
+}
+
+/* https://css-tricks.com/clearfix-a-lesson-in-web-development-evolution/ */
+@mixin clearfix {
+  zoom: 1;
+
+  &::before,
+  &::after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin links {
+  color: vars.$color-blue;
+  text-decoration: underline;
+
+  &:hover {
+    color: vars.$color-blue-highlight;
+  }
+
+  &:focus {
+    @include focus;
+  }
+}

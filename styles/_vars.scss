@@ -1,0 +1,40 @@
+/* Colours */
+$color-blue: #26374a;
+$color-blue-highlight: #0535d2;
+$color-red: #d3080c;
+$color-red-dark: #af3c43;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-text: #333333;
+$color-grey-md: #dddddd;
+$color-grey-light: #e3e3e3;
+$color-grey-very-light: #f8f8f8;
+$color-focus: #ffdd00;
+
+$color-button-hover: #1c578a;
+$color-button-active: #091c2d;
+
+/* Typography */
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+$font-base-size: 1rem;
+$font-scale: 1.25;
+
+$font-xs: calc(#{$font-base-size} / 1.15);
+$font-sm: $font-base-size;
+$font-md: calc(#{$font-sm} * 1.25);
+$font-lg: calc(#{$font-md} * 1.25);
+$font-xl: calc(#{$font-lg} * 1.25);
+$font-xxl: calc(#{$font-xl} * 1.25);
+$font-xxxl: calc(#{$font-xxl} * 1.25);
+
+/* Spacing */
+$space-base-size: 1rem;
+$space-xs: calc(0.25 * #{$space-base-size});
+$space-sm: calc(0.5 * #{$space-base-size});
+$space-md: calc(0.75 * #{$space-base-size});
+$space-lg: #{$space-base-size};
+$space-xl: calc(1.5 * #{$space-base-size});
+$space-xxl: calc(2.5 * #{$space-base-size});
+$space-xxxl: calc(3.5 * #{$space-base-size});
