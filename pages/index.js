@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 
 import Head from 'next/head'
 import Layout from '../components/layout'
-import Chat from '../components/Chat'
+import Chat from '../components/chat'
 
 export default function Home() {
   const [height, setHeight] = useState(0)

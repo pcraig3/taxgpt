@@ -84,7 +84,3 @@ main.index {
 .flex-wrapper {
   @include mixins.flex-wrapper;
 }
-
-body * {
-  outline: 1px solid green;
-}
