@@ -23,10 +23,9 @@ header {
 .site-title a {
   display: flex;
   font-size: 1.5 * 1rem;
-  margin-block-end: vars.$space-xs;
 
   img {
-    margin-block-start: -3px;
+    margin-block-start: -8px;
   }
 
   span {

@@ -8,9 +8,7 @@
 }
 
 html,
-body,
-div#__next,
-div#__next > div {
+body{
 height: 100vh;
 }
 
@@ -22,6 +20,8 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
+  background: #eee;
+  padding-top: calc(2* vars.$space-xxl);
 }
 
 a {
@@ -62,6 +62,10 @@ article {
 
   display: flex;
   flex-direction: column;
+  background: white;
+  margin-bottom: calc(2* vars.$space-xxl);
+  min-height: 70vh;
+  border-radius: 20px;
 
   header {
     flex-grow: 0;
