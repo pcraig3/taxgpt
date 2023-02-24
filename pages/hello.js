@@ -54,7 +54,18 @@ export default function Hello() {
                 <Link href="/pages/about">About TaxGPT</Link>
               </li>
               <li>
-                <a href="mailto:paul@pcraig3.ca">Get in touch</a>
+                <a href="mailto:paul@pcraig3.ca">
+                  <span className="hidden-hover">Get in touch</span>
+                  <div className="marquee" aria-hidden="true">
+                    <div className="marquee__inner">
+                      <span>Get in touch</span> * <span>Get in touch</span> *
+                      <span>Get in touch</span> * <span>Get in touch</span> *
+                      <span>Get in touch</span> * <span>Get in touch</span> *
+                      <span>Get in touch</span> * <span>Get in touch</span> *
+                      <span>Get in touch</span> *
+                    </div>
+                  </div>
+                </a>
               </li>
               {/* <button onClick={() => setLoadChat(() => true)}>Let’s chat!</button> */}
             </ul>
