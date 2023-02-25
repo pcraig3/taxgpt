@@ -6,6 +6,9 @@
 
   > div {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     &:first-of-type {
       border-right: 1.5px solid #eee; 
@@ -18,7 +21,7 @@
   }
 
   .hello--logo {
-    border: 2px solid #720e0e;
+    background: vars.$color-red; 
     border-radius: 100%;
   }
 
@@ -38,59 +41,38 @@
 
     li {
       margin-block-end: vars.$space-lg;
-    }
 
-    li > * {
-      display: inline-flex;
-      width: 100%;
-      font-size: 1rem;
-      line-height: 1.5;
-      padding: vars.$space-lg vars.$space-xxl;
-      border-radius: 40px;
-      white-space: normal;
-      border: 2px solid red;
-      position: relative;
+      &:first-of-type > * {
+        background: vars.$color-red;
+        color: white;
+        border: 4px solid vars.$color-red;
 
-      &:hover {
-        cursor: pointer;
+        > svg {
+          fill: white;
+        }
+        
+        &:hover {
+          outline: 4px solid white;
+          outline-offset: -8px;
+        }
       }
-    }
 
-    .marquee {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      overflow: hidden;
-      pointer-events: none;
-
-      .marquee__inner {
-        width: fit-content;
-        display: flex;
+      > * {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.5;
+        padding: vars.$space-lg vars.$space-xxl;
+        border-radius: 50px;
+        white-space: normal;
+        border: 4px solid vars.$color-red-light;
         position: relative;
-        animation: marquee 10s linear infinite;
-        animation-play-state: paused;
-        opacity: 0;        
-        text-align: center;
-        white-space: nowrap;
-        font-style: italic;
-        padding-top: 1rem;
-
-        span {
-          padding: 0 5px;
-        } 
-      }
-    }
-
-    li > *:hover {
-      .hidden-hover {
-        visibility: hidden;
-      }
-
-      .marquee .marquee__inner {
-        animation-play-state: running;
-        opacity: 1;
-        transition: .5s;  
+  
+        &:hover {
+          cursor: pointer;
+          border: 4px solid vars.$color-red;
+        }
       }
     }
   }

@@ -1,14 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react'
 
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
 import { Open_Sans } from '@next/font/google'
 const openSans = Open_Sans({ subsets: ['latin'] })
 
 import Layout from '../components/layout'
 import Chat from '../components/chat'
-import logo from '../public/robot.svg'
+
+import { About, Doc, Mail, Robot, Talk } from '../components/icons'
 
 export default function Hello() {
   const [height, setHeight] = useState(0)
@@ -30,13 +30,16 @@ export default function Hello() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="left-side">
-        <Image className="hello--logo" src={logo} alt="Logo" width={150} height={150} />
+        <Robot className="hello--logo" width={150} />
         <h1>TaxGPT</h1>
         <p>
           TaxGPT is a friendly AI assistant who helps Canadians better understand their options for
           free tax filing.
         </p>
-        <p>TaxGPT is not a tax filing service, and doesn’t collect any personal data.</p>
+        <p>
+          TaxGPT gives you advice, it doesn’t collect personal data and it can’t file your taxes for
+          you.
+        </p>
       </div>
       <div className="right-side">
         <div ref={ref} className="chat-container">
@@ -45,26 +48,27 @@ export default function Hello() {
           ) : (
             <ul>
               <li>
-                <button className={openSans.className}>Chat with me!</button>
+                <button className={openSans.className}>
+                  <span>Let’s chat!</span>
+                  <Talk width="32" />
+                </button>
               </li>
               <li>
-                <Link href="/pages/resources">Resources</Link>
+                <Link href="/pages/resources">
+                  <span>Resources</span>
+                  <Doc width="32" />
+                </Link>
               </li>
               <li>
-                <Link href="/pages/about">About TaxGPT</Link>
+                <Link href="/pages/about">
+                  <span>About TaxGPT</span>
+                  <About height="30" />
+                </Link>
               </li>
               <li>
                 <a href="mailto:paul@pcraig3.ca">
-                  <span className="hidden-hover">Get in touch</span>
-                  <div className="marquee" aria-hidden="true">
-                    <div className="marquee__inner">
-                      <span>Get in touch</span> * <span>Get in touch</span> *
-                      <span>Get in touch</span> * <span>Get in touch</span> *
-                      <span>Get in touch</span> * <span>Get in touch</span> *
-                      <span>Get in touch</span> * <span>Get in touch</span> *
-                      <span>Get in touch</span> *
-                    </div>
-                  </div>
+                  <span>Get in touch</span>
+                  <Mail width="28" />
                 </a>
               </li>
               {/* <button onClick={() => setLoadChat(() => true)}>Let’s chat!</button> */}
