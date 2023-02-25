@@ -20,19 +20,6 @@ export default function Hello() {
     setHeight(ref.current.clientHeight)
   })
 
-  const createMarqueeText = (str, length = 6) => {
-    return (
-      <div>
-        {Array.from({ length }, (_, index) => (
-          <>
-            <span key={str.replace(/\s+/g, '') + index}>{str.replace(/ /g, '\u00a0')}</span>
-            <span>*</span>
-          </>
-        ))}
-      </div>
-    )
-  }
-
   return (
     <Layout mainClass="hello" header={false}>
       <Head>
@@ -62,46 +49,26 @@ export default function Hello() {
             <ul>
               <li>
                 <button className={`${openSans.className} button`}>
-                  <div className="button--hover">
-                    <span>Let’s chat!</span>
-                    <Talk width="32" />
-                  </div>
-                  <div aria-hidden="true" className="button--marquee">
-                    {createMarqueeText('Let’s chat', 8)}
-                  </div>
+                  <span>Let’s chat!</span>
+                  <Talk width="32" />
                 </button>
               </li>
               <li>
                 <Link href="/pages/resources" className="button">
-                  <div className="button--hover">
-                    <span>Resources</span>
-                    <Doc width="32" />
-                  </div>
-                  <div aria-hidden="true" className="button--marquee">
-                    {createMarqueeText('Resources', 8)}
-                  </div>
+                  <span>Resources</span>
+                  <Doc width="32" />
                 </Link>
               </li>
               <li>
                 <Link href="/pages/about" className="button">
-                  <div className="button--hover">
-                    <span>About TaxGPT</span>
-                    <About height="30" />
-                  </div>
-                  <div aria-hidden="true" className="button--marquee">
-                    {createMarqueeText('About TaxGPT')}
-                  </div>
+                  <span>About TaxGPT</span>
+                  <About height="30" />
                 </Link>
               </li>
               <li>
                 <a href="mailto:paul@pcraig3.ca" className="button">
-                  <div className="button--hover">
-                    <span>Get in touch</span>
-                    <Mail width="28" />
-                  </div>
-                  <div aria-hidden="true" className="button--marquee">
-                    {createMarqueeText('Get in touch')}
-                  </div>
+                  <span>Get in touch</span>
+                  <Mail width="28" />
                 </a>
               </li>
               {/* <button onClick={() => setLoadChat(() => true)}>Let’s chat!</button> */}

@@ -12,17 +12,29 @@
 - First though, just script it
 - "current" in the nav
 - Focus styles
-- Do we need a landing homepage?
 - Connect to ChatGPT
 - Try out some other fonts
 - Make the menu collapse
+- Fix logo in the menu
+- Add links to content
+- text highlighting CSS would be fun
 - Does it work on your phone?
 - Run an axe scan
 - Test with a keyboard
 - update README
+- Landing page redesign
+  - Embed chat window
+  - Fix the spacing
+  - Nice on a phone
+  - New fonts
+  - Text colour
+- Create GitHub repo
+- Add a license file
 
 # DONE
 
+- Better logo
+- Landing page redesign
 - Page: About
 - Page: Resources
 - Favicon
