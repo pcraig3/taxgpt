@@ -38,51 +38,97 @@
     list-style-type: none;
     padding-top: calc(2* vars.$space-xxl);
     padding-bottom: vars.$space-xxl 0;
+  }
 
-    li {
-      margin-block-end: vars.$space-lg;
+  li {
+    margin-block-end: vars.$space-lg;
 
-      &:first-of-type > * {
-        background: vars.$color-red;
-        color: white;
-        border: 4px solid vars.$color-red;
+    &:first-of-type .button {
+      width: 100%;
+      background: vars.$color-red;
+      border: 4px solid vars.$color-red;
+      color: white;
 
+      &:hover {
+        outline: 3px solid white;
+        outline-offset: -7px;
+      }
+
+      .button--hover {
+  
         > svg {
           fill: white;
         }
-        
-        &:hover {
-          outline: 4px solid white;
-          outline-offset: -8px;
-        }
+      }
+    }
+
+    .button  {
+      position: relative;
+      font-size: 1rem;
+      line-height: 1.5;
+      padding: vars.$space-lg vars.$space-xxl;
+      border-radius: 50px;
+      white-space: normal;
+      border: 4px solid vars.$color-red-light;
+      position: relative;
+      display: inline-block;
+      width: 100%;
+
+      &:hover {
+        cursor: pointer;
+        border: 4px solid vars.$color-red;
       }
 
-      > * {
-        display: inline-flex;
-        justify-content: space-between;
+      .button--hover {
         width: 100%;
-        font-size: 1rem;
-        line-height: 1.5;
-        padding: vars.$space-lg vars.$space-xxl;
-        border-radius: 50px;
-        white-space: normal;
-        border: 4px solid vars.$color-red-light;
-        position: relative;
-  
-        &:hover {
-          cursor: pointer;
-          border: 4px solid vars.$color-red;
-        }
+        justify-content: space-between;
+        display: inline-flex;
       }
+    }
+
+    .button .button--marquee {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      opacity: 0;
+
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200%;
+        height: 100%;
+        animation: marquee 5s linear infinite;
+        font-style: italic;
+        overflow: visible;
+      }
+
+      div span {
+        display: inline-block;
+        padding: 0 5px;
+        word-break: keep-all;
+        white-space: pre-wrap;
+      }
+    }
+
+    .button:hover .button--hover {
+      opacity: 0;
+    }
+
+    .button:hover .button--marquee {
+      opacity: 1;
     }
   }
 }
 
+/* MARQUEE ANIMATION */
 @keyframes marquee {
-  0% {
-    left: vars.$space-xxl;
-  }
-  100% {
-    left: -100%
-  }
+  0% { left: -6%; }
+  100% { left: -100%; }
 }
