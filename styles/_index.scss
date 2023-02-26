@@ -1,7 +1,7 @@
 @use './mixins';
 @use './vars';
 
-.hello {
+.index {
   display: flex;
   flex-direction: column;
 
@@ -19,25 +19,27 @@
 
   @include mixins.desktop {
     > div {
-      &.hello--left {
+      &.index--left {
         border-right: 1.5px solid vars.$color-grey-light;
         padding-inline-end: vars.$space-xxxl;
         padding-block-start: 0;
       }
 
-      &.hello--right {
+      &.index--right {
         padding-inline-start: vars.$space-xxxl;
       }
     }
   }
 
-  .hello--logo {
-    background: vars.$color-red; 
-    border-radius: 100%;
-  }
+  .index--left {
+    .index--logo {
+      background: vars.$color-red;
+      border-radius: 100%;
+    }
 
-  h1 {
-    margin-block-start: vars.$space-md;
+    h1, p {
+      margin-block-start: vars.$space-md;
+    }
   }
 
   .chat-container {

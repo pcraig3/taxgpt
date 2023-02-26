@@ -2,19 +2,15 @@ import React, { useState, useEffect, useRef } from 'react'
 
 import Head from 'next/head'
 import Link from 'next/link'
-import { Open_Sans, League_Spartan } from '@next/font/google'
-const openSans = Open_Sans({ subsets: ['latin'] })
-const headings = League_Spartan({ subsets: ['latin'] })
 
 import Layout from '../components/layout'
 import Chat from '../components/chat'
 
 import { About, Doc, Mail, Robot, Talk } from '../components/icons'
 
-export default function Hello() {
+export default function Index() {
   const [height, setHeight] = useState(0)
   const [loadChat, setLoadChat] = useState(false)
-  openSans
   const ref = useRef(null)
 
   useEffect(() => {
@@ -22,7 +18,7 @@ export default function Hello() {
   })
 
   return (
-    <Layout mainClass="hello" header={false}>
+    <Layout mainClass="index" header={false}>
       <Head>
         <title>TaxGPT — AI tax advisor for Canada</title>
         <meta name="description" content="TODO" />
@@ -30,9 +26,9 @@ export default function Hello() {
         <meta name="robots" content="noindex" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="hello--left">
-        <Robot className="hello--logo" width={150} />
-        <h1 className={headings.className}>TaxGPT</h1>
+      <div className="index--left">
+        <Robot className="index--logo" width={150} />
+        <h1 className="heading">TaxGPT</h1>
         <p>
           TaxGPT is a friendly AI assistant who helps Canadians better understand their options for
           free tax filing.
@@ -42,17 +38,14 @@ export default function Hello() {
           you.
         </p>
       </div>
-      <div className="hello--right">
+      <div className="index--right">
         <div ref={ref} className={`chat-container ${loadChat && 'chat-container--open'}`}>
           {loadChat ? (
             <Chat height={`${height}px`} />
           ) : (
             <ul>
               <li>
-                <button
-                  onClick={() => setLoadChat(() => true)}
-                  className={`${openSans.className} button`}
-                >
+                <button onClick={() => setLoadChat(() => true)} className="button">
                   <span>Let’s chat!</span>
                   <Talk width="32" />
                 </button>

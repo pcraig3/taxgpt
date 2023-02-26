@@ -8,20 +8,22 @@
 }
 
 html,
-body{
-height: 100vh;
-}
-
-html,
 body {
+  height: 100vh;
   max-width: 100vw;
   overflow-x: hidden;
+  color: #333;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background: vars.$color-grey-light;
   padding-top: calc(2* vars.$space-xxl);
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -36,21 +38,32 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6, .heading {
-  font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji;
+  font-family: 'Inter Tight',system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji;
   font-weight: 600;
-  letter-spacing: -0.015em;
 }
 
 h1 {
-  letter-spacing: -0.025em;
+  letter-spacing: -0.01em;
+  font-weight: 500;
 }
 
 h2 {
-  letter-spacing: -0.020em;
+  letter-spacing: -0.005em;
+  font-weight: 500;
+}
+
+.heading {
+  font-family: 'League Spartan','Inter Tight',system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji;
+  letter-spacing: -0.02em;
+  font-weight: 500;
 }
 
 article {
   max-width: 850px;
+
+  h1 + div {
+    font-size: 1.207rem
+  }
 }
 
 .visually-hidden {

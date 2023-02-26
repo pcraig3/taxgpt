@@ -51,17 +51,17 @@ blockquote {
 h1, h2, h3, h4, h5, h6 {
   /* Change heading typefaces here */
   font-family: sans-serif;
-  margin-top: $leading;
+  margin-top: 1.75 * $leading;
   margin-bottom: 0;
-  line-height: $leading;
+  line-height: 1.25;
 }
 
 h1 { font-size: 3 * $scale * 1rem; line-height: 3 * $leading; margin-top: 2 * $leading; }
 h2 { font-size: 2 * $scale * 1rem; line-height: 2 * $leading; margin-top: 2 * $leading; }
 h3 { font-size: 1 * $scale * 1rem; }
-h4 { font-size: $scale / 2 * 1rem; }
-h5 { font-size: $scale / 3 * 1rem; }
-h6 { font-size: $scale / 4 * 1rem; }
+h4 { font-size: $scale / 1.35 * 1rem; }
+h5 { font-size: $scale / 1.5 * 1rem; }
+h6 { font-size: $scale / 1.75 * 1rem; }
 
 /* Tables */
 table {

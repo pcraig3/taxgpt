@@ -4,10 +4,6 @@ import Link from 'next/link'
 
 import logo from '../public/robot.svg'
 
-import { Open_Sans } from '@next/font/google'
-
-const openSans = Open_Sans({ subsets: ['latin'] })
-
 export default function Layout({ children, mainClass = '', header = true }) {
   return (
     <>
@@ -21,11 +17,18 @@ export default function Layout({ children, mainClass = '', header = true }) {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#b60a0a" />
         <meta name="msapplication-TileColor" content="#b60a0a" />
         <meta name="theme-color" content="#b60a0a" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600&family=League+Spartan:wght@500&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <div className="wrapper">
         <div className="container">
           {header && (
-            <header className={openSans.className}>
+            <header>
               <div className="site-title heading">
                 <Link href="/">
                   <Image src={logo} alt="Logo" width={55} height={55} />
@@ -44,7 +47,7 @@ export default function Layout({ children, mainClass = '', header = true }) {
               </nav>
             </header>
           )}
-          <main className={`${mainClass} ${openSans.className}`}>{children}</main>
+          <main className={mainClass}>{children}</main>
         </div>
       </div>
     </>

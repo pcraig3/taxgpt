@@ -24,11 +24,19 @@ header {
       }
     }
   }
+
+  + main {
+    padding-block-end: vars.$space-xl;
+  }
 }
 
 .site-title a {
   display: flex;
-  font-size: 1.5 * 1rem;
+  font-size: 1.85 * 1rem;
+
+  &:hover, &:focus {
+    text-decoration: underline;
+  }
 
   img {
     margin-block-start: -8px;
@@ -38,7 +46,8 @@ header {
   }
 
   span {
-    margin-inline-start: vars.$space-xs;
+    margin-block-start: 1px;
+    margin-inline-start: vars.$space-sm;
   }
 }
 
