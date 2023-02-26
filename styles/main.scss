@@ -10,7 +10,8 @@
 /* components */
 @use './header';
 
-@use './hello';
+/* pages */
+@use './index';
 
 /* TODO: dev mode only */
 // body * {
