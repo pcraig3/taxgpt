@@ -5,16 +5,22 @@ header {
   justify-content: space-between;
   border-bottom: solid 2px black;
   padding-top: vars.$space-xl;
+  align-items: flex-start;
 
   nav ul {
     list-style-type: none;
     margin: 0;
+    margin-block-start: vars.$space-xs;
 
     li {
       display: inline-block;
 
       &:not(:last-of-type) {
         margin-inline-end: vars.$space-lg;
+      }
+
+      a:hover, a:focus {
+        border-bottom: 2px solid black;
       }
     }
   }
@@ -26,6 +32,9 @@ header {
 
   img {
     margin-block-start: -8px;
+    background: vars.$color-red;
+    border-radius: 50%;
+    margin-block-end: vars.$space-sm;
   }
 
   span {

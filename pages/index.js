@@ -2,8 +2,9 @@ import React, { useState, useEffect, useRef } from 'react'
 
 import Head from 'next/head'
 import Link from 'next/link'
-import { Open_Sans } from '@next/font/google'
+import { Open_Sans, League_Spartan } from '@next/font/google'
 const openSans = Open_Sans({ subsets: ['latin'] })
+const headings = League_Spartan({ subsets: ['latin'] })
 
 import Layout from '../components/layout'
 import Chat from '../components/chat'
@@ -31,7 +32,7 @@ export default function Hello() {
       </Head>
       <div className="hello--left">
         <Robot className="hello--logo" width={150} />
-        <h1>TaxGPT</h1>
+        <h1 className={headings.className}>TaxGPT</h1>
         <p>
           TaxGPT is a friendly AI assistant who helps Canadians better understand their options for
           free tax filing.

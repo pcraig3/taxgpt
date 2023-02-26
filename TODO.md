@@ -13,9 +13,7 @@
 - "current" in the nav
 - Focus styles
 - Connect to ChatGPT
-- Try out some other fonts
 - Make the menu collapse
-- Fix logo in the menu
 - Add links to content
 - text highlighting CSS would be fun
 - Does it work on your phone?
@@ -23,20 +21,23 @@
 - Test with a keyboard
 - update README
 - Landing page redesign
-  - Embed chat window
   - Fix the spacing
   - Nice on a phone
-  - New fonts
   - Text colour
 - Add a license file
 - Should I make the button jiggle? It's hard out here without a design team.
+- New fonts on markdown pages
 
 # DONE
 
+- Use Tyler's logo
+  - Fix logo in the menu
+  - Fix favicon
 - Landing page redesign
   - Two column layout
   - Embed chat window
   - First pass: mobile
+  - New header font
 - Create GitHub repo
 - Better logo
 - Page: About
