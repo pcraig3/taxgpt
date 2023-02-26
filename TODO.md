@@ -9,10 +9,9 @@
 - Security headers
 - Github actions autodeploy
 - Create an actual API endpoint to hit ChatGPT
-- First though, just script it
+- Connect to ChatGPT
 - "current" in the nav
 - Focus styles
-- Connect to ChatGPT
 - Make the menu collapse
 - Add links to content
 - text highlighting CSS would be fun
@@ -21,15 +20,14 @@
 - Test with a keyboard
 - update README
 - Landing page redesign
-  - Fix the spacing
   - Nice on a phone
   - Text colour
 - Add a license file
 - Should I make the button jiggle? It's hard out here without a design team.
-- New fonts on markdown pages
 
 # DONE
 
+- New fonts on markdown pages
 - Use Tyler's logo
   - Fix logo in the menu
   - Fix favicon
@@ -38,6 +36,7 @@
   - Embed chat window
   - First pass: mobile
   - New header font
+  - Fix the spacing
 - Create GitHub repo
 - Better logo
 - Page: About

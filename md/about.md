@@ -70,3 +70,7 @@ The “question and answer” part at the end uses AI to give you an answer, whi
 ### Why build this?
 
 Doing taxes should be easy and straightforward, so TaxGPT tries to embody that.
+
+### Are you selling my data/making money?
+
+Nope, TaxGPT is a public service. I am paying to host it, and I don’t make any money back in any way. But that’s okay because I save so much money every year by filing my taxes online for free.

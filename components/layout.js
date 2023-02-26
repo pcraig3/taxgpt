@@ -17,13 +17,6 @@ export default function Layout({ children, mainClass = '', header = true }) {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#b60a0a" />
         <meta name="msapplication-TileColor" content="#b60a0a" />
         <meta name="theme-color" content="#b60a0a" />
-
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600&family=League+Spartan:wght@500&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <div className="wrapper">
         <div className="container">

@@ -34,7 +34,7 @@ export default function Index() {
           free tax filing.
         </p>
         <p>
-          TaxGPT gives you advice, it doesn’t collect personal data and it can’t file your taxes for
+          TaxGPT gives advice, it doesn’t collect personal data, and it can’t file your taxes for
           you.
         </p>
       </div>
