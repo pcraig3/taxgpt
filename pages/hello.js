@@ -29,7 +29,7 @@ export default function Hello() {
         <meta name="robots" content="noindex" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="left-side">
+      <div className="hello--left">
         <Robot className="hello--logo" width={150} />
         <h1>TaxGPT</h1>
         <p>
@@ -41,14 +41,17 @@ export default function Hello() {
           you.
         </p>
       </div>
-      <div className="right-side">
-        <div ref={ref} className="chat-container">
+      <div className="hello--right">
+        <div ref={ref} className={`chat-container ${loadChat && 'chat-container--open'}`}>
           {loadChat ? (
             <Chat height={`${height}px`} />
           ) : (
             <ul>
               <li>
-                <button className={`${openSans.className} button`}>
+                <button
+                  onClick={() => setLoadChat(() => true)}
+                  className={`${openSans.className} button`}
+                >
                   <span>Let’s chat!</span>
                   <Talk width="32" />
                 </button>

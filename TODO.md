@@ -28,13 +28,17 @@
   - Nice on a phone
   - New fonts
   - Text colour
-- Create GitHub repo
 - Add a license file
+- Should I make the button jiggle? It's hard out here without a design team.
 
 # DONE
 
-- Better logo
 - Landing page redesign
+  - Two column layout
+  - Embed chat window
+  - First pass: mobile
+- Create GitHub repo
+- Better logo
 - Page: About
 - Page: Resources
 - Favicon

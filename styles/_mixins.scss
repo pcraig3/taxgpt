@@ -1,4 +1,5 @@
 @use "./vars";
+/* ~TODO: look at these */
 
 /* Mixins are compiled ahead of time, so we can't use CSS vars in our mq mixins */
 $desktop-screen: 1200px;
@@ -67,12 +68,15 @@ $mobile-container: 750px;
   @include tablet {
     max-width: $mobile-container;
 
-    padding-left: vars.$space-xxxl;
-    padding-right: vars.$space-xxxl;
+    padding-left: vars.$space-xxl;
+    padding-right: vars.$space-xxl;
   }
 
   @include desktop {
     max-width: $tablet-container;
+
+    padding-left: vars.$space-xxxl;
+    padding-right: vars.$space-xxxl;
   }
 
   @include desktop-xl {

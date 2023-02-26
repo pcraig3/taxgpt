@@ -1,22 +1,33 @@
+@use './mixins';
 @use './vars';
 
 .hello {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+
+  @include mixins.desktop {
+    flex-direction: row;
+  }
 
   > div {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-block-start: vars.$space-xxl;
+  }
 
-    &:first-of-type {
-      border-right: 1.5px solid #eee; 
-      padding-inline-end: vars.$space-xxl;
-    }
+  @include mixins.desktop {
+    > div {
+      &.hello--left {
+        border-right: 1.5px solid vars.$color-grey-light;
+        padding-inline-end: vars.$space-xxxl;
+        padding-block-start: 0;
+      }
 
-    &:last-of-type {
-      padding-inline-start: vars.$space-xxl;
+      &.hello--right {
+        padding-inline-start: vars.$space-xxxl;
+      }
     }
   }
 
@@ -26,18 +37,40 @@
   }
 
   h1 {
-    margin-top: vars.$space-md;
+    margin-block-start: vars.$space-md;
   }
 
   .chat-container {
     height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    &.chat-container--open {
+      border-radius: 15px;
+      background: #f9f9f9;
+
+      > #typebot-container {
+        border-radius: 15px;
+        box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+      }
+
+      @include mixins.tablet {
+        margin-bottom: vars.$space-xl;
+      }
+
+      @include mixins.desktop {
+        margin-left: calc(-1 * vars.$space-xl);
+        width: calc(2* vars.$space-xl + 100%);
+        margin-top: calc(-1 * vars.$space-lg);
+      }
+    }
   }
 
   ul {
     margin: 0;
     list-style-type: none;
-    padding-top: calc(2* vars.$space-xxl);
-    padding-bottom: vars.$space-xxl 0;
+    width: 100%;
   }
 
   li {

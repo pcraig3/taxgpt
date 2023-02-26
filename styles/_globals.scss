@@ -20,7 +20,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #eee;
+  background: vars.$color-grey-light;
   padding-top: calc(2* vars.$space-xxl);
 }
 
@@ -72,15 +72,6 @@ article {
   }
 
   main {
-    flex-grow: 1;
-  }
-}
-
-main.index {
-  display: flex;
-  flex-direction: column;
-
-  .chat-container {
     flex-grow: 1;
   }
 }
