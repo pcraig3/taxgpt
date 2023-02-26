@@ -1,76 +1,84 @@
 ---
 title: 'About & FAQ'
-subhead: 'Everything you need to know and stuff you don’t.'
+subhead: 'Everything you want to know and plenty you don’t.'
 ---
 
 ## About
 
-TaxGPT is an experimental AI chat service that helps Canadians better understand their options for free tax filing. TaxGPT is under active development, so the flow as well as the wording is likely to change between releases.
+TaxGPT is an experimental AI chatbot advisor to help Canadians better understand their options for free tax filing. TaxGPT is under active development, so the question flow or the specific wording may change between releases.
 
-TaxGPT.ca is not a Government of Canada service. You can try out Charlie the Chatbot on the Canada Revenue Agency’s website, but he doesn’t know too much about your 2022 basic personal amount, and he’s not very good at jokes.
+TaxGPT is not a Government of Canada service. You can [chat with Charlie the Chatbot](https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html) on the Canada Revenue Agency’s website, but he doesn’t know your basic personal amount for 2022, and he’s not very good with emojis.
 
-If you spot an error, want to make a suggestion, or just want to give me a virtual high-five, please reach out to paul@pcraig3.ca. My goal is to get back to you within 2 weeks if you message online, or 8 weeks if you send me a paper letter.
+The source code for [TaxGPT.ca is on GitHub](https://github.com/pcraig3/tax-gpt), and I used [Typebot](https://typebot.io/) for the chatbot interaction, which I found to be excellent.
 
-The source code for TaxGPT.ca is on Github, and the chatbot interaction is created with Typebot.
+The adorable [Canadian maple leaf](/robot.svg) mascot is [Tyler Benning’s](https://tylerbenning.com).
+
+### Contact
+
+If you spot an error, want to make a suggestion, or just want to give me a virtual high-five, please reach out to me at [paul@pcraig3.ca](mailto:paul@pcraig3.ca). I will aim get back to you within 2 days if you message online, or 8 weeks if you send me a paper letter.
+
+I am kind of a one-person team over here, so there are definitely some rough edges.
 
 ## FAQ
 
-If you have a question that’s not on here, please get in touch.
+If you have a question that’s not on here, [get in touch](mailto:paul@pcraig3.ca) and I might add it to the list.
 
 ### Is TaxGPT a Government of Canada service?
 
-Nope. if it was a government service, it would have a Canadian flag at the top of the page.
+Nope. If it was a government service, it would have [a Canadian flag at the top of the page](https://design.canada.ca/common-design-patterns/global-header.html).
 
-### What happens to my data?
-
-The information needed by TaxGPT is not detailed enough to identify you. The only personal information you are asked for is your first name, and you can just make that up.
-
-If you want your data removed, send me your first name and the approximate time that you used TaxGPT and I will get rid of it.
+You can visit the [Canada Revenue Agency’s website](https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html) for comprehensive personal tax filing information.
 
 ### Is TaxGPT a scam?
 
-Nope, not a scam. If TaxGPT was a scam, it would probably ask you for specific financial details, like your address or banking information.
+Nope, not a scam. If TaxGPT was a scam, it would ask you for specific personal/financial details, like your home address or banking information.
 
-On the other hand, if this was a scam, it would definitely claim not to be a scam.
+On the other hand, if this _was_ a scam, it would definitely claim not to be a scam.
+
+(Not a scam though, to be clear.)
 
 ### Can I file taxes through TaxGPT?
 
-No. You can browse CRA’s list of approved NETFILE software, there are both free and paid options. I personally recommend Wealthsimple Tax.
+No. You can browse [the Canada Revenue Agency’s list of approved NETFILE software](https://www.canada.ca/en/revenue-agency/services/e-services/e-services-individuals/netfile-overview/certified-software-netfile-program.html#h_1) for official tax filing applications — there are both free and paid options.
 
-### Are you sponsored by WealthSimple?
+**I personally recommend [Wealthsimple Tax](https://www.wealthsimple.com/en-ca/tax).**
 
-No, this is not a branded or sponsored product — TaxGPT is a completely free service. I don’t make any money on this — I am actually losing tons of money on this.
+### What happens to my data?
 
-https://twitter.com/dril/status/384408932061417472?lang=en
+TaxGPT needs general information about your financial situation to make tailored recommendations about free tax-filing. **However, data collected by TaxGPT can’t be used to identify you in any way**.
 
-There are other free tax filing services. Why do you only recommend Wealthsimple Tax?
+I analyze the data to see how TaxGPT is performing and improve the service.
 
-I think Wealthsimple Tax is the best product for most people.
+### Are you making money from this?
 
-Some other tax filing products offer a free tier but then they try to undermine your confidence before you hit ‘submit’ — either suggesting you could get more money back with the more full-featured verison, or recommending a person look it over.
-
-The main reason that Canadians don’t file on their own is a lack of confidence, and design patterns and marketing campaigns that reinforce that message reinforce the mistaken notion that tax filing is something best left to professionals.
-
-We don’t need “voting professionals” to fill out ballots for us during elections; similarly, most Canadians are capable of filing their own returns with the right tool and some encouragement.
-
-That’s why I highlight Wealthsimple specifically.
-
-If you offer or know of another tax-filing product without dark design patterns, please reach out.
-
-### There’s a problem with the quiz.
-
-Yes, it’s certainly possible. Please reach out and I will do my best to address it.
-
-Just a note that the quiz is trying to simplify the tax journey for people with a modest income and/or a simple tax scenario. It isn’t trying to cover every possibility — if you have a complex tax situation, you are probably aware.
-
-### I got some inaccurate information back from TaxGPT when I asked it a question
-
-The “question and answer” part at the end uses AI to give you an answer, which, in my experience, is usually pretty good, but definitely not foolproof.
+No, this is not a branded or sponsored product — TaxGPT is a completely free service. I am paying to host it, and I don’t make any money back in any way. But that’s okay because I save so much money every year by filing my taxes online for free.
 
 ### Why build this?
 
 Doing taxes should be easy and straightforward, so TaxGPT tries to embody that.
 
-### Are you selling my data/making money?
+### There are other free tax-filing services. Why do you only recommend Wealthsimple Tax?
 
-Nope, TaxGPT is a public service. I am paying to host it, and I don’t make any money back in any way. But that’s okay because I save so much money every year by filing my taxes online for free.
+I think [Wealthsimple Tax](https://www.wealthsimple.com/en-ca/tax) is the best product for most people.
+
+Some other tax filing products offer a free tier but then they try to undermine your confidence before you hit ‘submit’ — either suggesting you could get more money back with a paid verison, or recommending you have an expert look it over.
+
+The main reason that Canadians don’t file on their own is a lack of confidence, and design patterns and marketing campaigns that reinforce that message reinforce the mistaken notion that tax filing is something best left to professionals.
+
+We don’t need “voting professionals” to fill out ballots for us during elections; similarly, most Canadians are capable of filing their own returns with the right tool and some encouragement.
+
+That’s why I highlight Wealthsimple Tax specifically.
+
+If you know of another free tax-filing product without dark design patterns, please reach out.
+
+### There’s a problem with the quiz
+
+Great, that’s just the feedback I am looking for. Please reach out and I will do my best to address it.
+
+Just note that the quiz tries to simplify the tax journey for people with a modest income and/or a simple tax scenario. It isn’t trying to cover every possibility — I am trying to simplify things for the huge number of people that [use EFILE to file their taxes](https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/individual-income-tax-return-statistics.html) each year.
+
+### I got some inaccurate information back from TaxGPT when I asked it a question
+
+The “question and answer” part at the end uses AI to return an answer, which, in my experience, is usually pretty good, but definitely not foolproof.
+
+Bad answers will happen from time to time, which is why there is a disclaimer for every answer that comes back.

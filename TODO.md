@@ -24,6 +24,7 @@
   - Text colour
 - Add a license file
 - Should I make the button jiggle? It's hard out here without a design team.
+- "On this page" widget for long content
 
 # DONE
 

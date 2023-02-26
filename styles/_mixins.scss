@@ -108,9 +108,9 @@ $mobile-container: 750px;
 @mixin focus {
   outline: 3px solid transparent;
   color: vars.$color-black !important;
-  background-color: vars.$color-focus;
-  -webkit-box-shadow: 0 -2px vars.$color-focus, 0 4px vars.$color-black;
-  box-shadow: 0 -2px vars.$color-focus, 0 4px vars.$color-black;
+  background-color: vars.$color-red-light;
+  -webkit-box-shadow: 0 -2px vars.$color-red-light, 0 4px vars.$color-black;
+  box-shadow: 0 -2px vars.$color-red-light, 0 4px vars.$color-black;
   text-decoration: none;
 }
 

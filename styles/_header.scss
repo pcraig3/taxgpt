@@ -7,6 +7,10 @@ header {
   padding-top: vars.$space-xl;
   align-items: flex-start;
 
+  a {
+    background: transparent;
+  }
+
   nav ul {
     list-style-type: none;
     margin: 0;
@@ -19,8 +23,13 @@ header {
         margin-inline-end: vars.$space-lg;
       }
 
-      a:hover, a:focus {
-        border-bottom: 2px solid black;
+      a {
+        text-decoration: none;
+        
+        &:hover, 
+        &:focus {
+          border-bottom: 2px solid currentColor;
+        }
       }
     }
   }

@@ -27,8 +27,23 @@ button {
 }
 
 a {
-  color: inherit;
   text-decoration: none;
+  color: currentColor;
+}
+
+main:not(.index) {
+  a {
+    color: vars.$color-red;
+    text-decoration: underline;
+
+    &:hover, &:focus {
+      background-color: vars.$color-red-light;
+    }
+
+    &:focus {
+      @include mixins.focus;
+    }
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -62,8 +77,13 @@ article {
   max-width: 850px;
 
   h1 + div {
+    margin-block-start: vars.$space-xs;
     font-size: 1.207rem
   }
+}
+
+del {
+  text-decoration: line-through;
 }
 
 .visually-hidden {
@@ -76,7 +96,7 @@ article {
   display: flex;
   flex-direction: column;
   background: white;
-  margin-bottom: calc(2* vars.$space-xxl);
+  margin-block-end: calc(2* vars.$space-xxl);
   min-height: 70vh;
   border-radius: 20px;
 
