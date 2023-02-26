@@ -1,30 +1,44 @@
 ---
 title: 'Resources'
-subhead: 'If you can’t find it here, check Reddit'
+subhead: 'If you can’t find it here, it’s probably on r/cantax'
 ---
 
-TaxGPT is an experimental AI chat service that helps Canadians better understand their options for free tax filing. TaxGPT’s goal is to empower Canadians with simple tax situations to consider filing their own returns.
-
-(On this page)
+TaxGPT is an experimental AI chatbot advisor to help Canadians better understand their options for free tax filing. TaxGPT’s goal is to empower Canadians with simple tax situations to consider filing their own returns.
 
 ### What is a simple tax situation?
 
-The Community Volunteer Income Tax Program (CVITP) Volunter program defines a simple tax situation as one in which . CVITP also includes an income cutoff (you can only use the clinics if you have a modest income), but that is not related to a simple tax situation. A simple tax situation is related to your sources of income, not the amount.
+The [Community Volunteer Income Tax Program (CVITP)](https://www.canada.ca/en/revenue-agency/services/tax/individuals/community-volunteer-income-tax-program.html) defines a ‘simple tax situation’ based on income sources. You most likely have a simple tax situation if your income comes from your job, your pension, government benefits, or investments under $1000.
 
-Most Canadians with a salary or income from a government benefits program have a simple tax scenario with fairly straightforward filing requirements.
+A simple tax situation is related to your sources of income, not the amount.
 
-Anyone with a simple tax scenario should be able to file for free online using intuitive tax software.
-
-Furthermore, below a certain income threshold, they may also be eligible for the Community Volunteer program, where volunteers file taxes for free on behalf of low-income Canadians.
+Canadians with a salary and RRSP contributions or income from government benefit programs have a simple tax scenario with fairly straightforward filing requirements. In general, people with a simple tax scenario should be able to file for free online using intuitive tax-filing apps.
 
 ### How do I know if I have a simple tax situation?
 
-Check yourself against the eligibility criteria on the CVIPT website.
+[Ask TaxGPT](/) to get a rough idea.
 
-In general, these sources are simple
+Or, check the [eligibility criteria on this Canada Revenue Agency webpage](https://www.canada.ca/en/revenue-agency/services/tax/individuals/community-volunteer-income-tax-program/lend-a-hand-individuals/about.html). You have to scroll down — look for the "eligibility criteria" text.
 
-These sources mean you are not simple:
+### What is the Community Volunteer Income Tax Program?
 
-### What is the CVITP?
+CVITP is a bad acronym but a good program. It is a national network of **volunteers who file taxes for free** for Canadians with a _simple tax situation_ and a _modest income_. CVITP clinics accept [walk-ins or virtual appointments](https://www.canada.ca/en/revenue-agency/services/tax/individuals/community-volunteer-income-tax-program/need-a-hand-complete-your-tax-return.html#whatfree) you can do from your home.
 
-The CVITP program is a bad acronym but a good descriptor. It is a national volunteer network of volunteers who file taxes for free for Canadians with a simple tax situation and a modest income.
+[CVITP’s eligibility criteria](https://www.canada.ca/en/revenue-agency/services/tax/individuals/community-volunteer-income-tax-program/lend-a-hand-individuals/about.html) defines maximum income levels as well.
+
+If you are interested, you can [search for a CVITP clinic near you](https://www.canada.ca/en/revenue-agency/services/tax/individuals/community-volunteer-income-tax-program/need-a-hand-complete-your-tax-return.html#freeclinic).
+
+### What are my options for self-filing online?
+
+In Canada, you can use approved applications to file taxes yourself. Some tax filing apps are free while others charge a fee. If you currently pay to file your taxes online, or if you pay for someone to do your taxes in person, you can save money by filing your own taxes for free.
+
+The Canada Revenue Agency (CRA) provides [a list of software you can use to file your taxes for free](https://www.canada.ca/en/revenue-agency/services/e-services/e-services-individuals/netfile-overview/certified-software-netfile-program.html#h_1). However, many of them try to upsell you: trying to get you to pay more for extra features or for someone to review your information.
+
+**I recommend [Wealthsimple Tax](https://www.wealthsimple.com/en-ca/tax)**, which is truly free.
+
+If you have a [CRA My Account](https://www.canada.ca/en/revenue-agency/services/e-services/e-services-individuals/account-individuals.html), you can use Wealthsimple Tax to “auto-fill” your tax information from your T4. With a CRA Account, you can easily switch between different tax apps and bring your data with you.
+
+Read “[How to File Taxes Online for Free in Canada](https://www.wealthsimple.com/en-ca/learn/file-taxes-free-canada)” to see more options, including Wealthsimple Tax.
+
+### “I think you’ve missed one”
+
+Not seeing something here that you expected? Reach out to me a [paul@pcraig3.ca](mailto:paul@pcraig3.ca) and let me know.

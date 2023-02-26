@@ -63,7 +63,7 @@ export default function Index() {
                 </Link>
               </li>
               <li>
-                <a href="mailto:paul@pcraig3.ca" className="button">
+                <a href="mailto:paul@pcraig3.ca?subject=TaxGPT question" className="button">
                   <span>Get in touch</span>
                   <Mail width="28" />
                 </a>
