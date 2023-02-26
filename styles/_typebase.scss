@@ -1,3 +1,5 @@
+@use './mixins';
+
 /*! Typebase.less v0.1.0 | MIT License */
 
 
@@ -13,7 +15,11 @@ $scale: 1.414;
 html {
   /* Change default typefaces here */
   font-family: serif;
-  font-size: $baseFontSize / 16 * 100%;
+  font-size: $baseFontSize / 19 * 100%;
+
+  @include mixins.tablet {
+    font-size: $baseFontSize / 16 * 100%;
+  }
 
   // Make everything look a little nicer in webkit
   -webkit-font-smoothing: antialiased;
@@ -56,8 +62,13 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
 }
 
-h1 { font-size: 3 * $scale * 1rem; line-height: 3 * $leading; margin-top: 2 * $leading; }
-h2 { font-size: 2 * $scale * 1rem; line-height: 2 * $leading; margin-top: 2 * $leading; }
+@include mixins.tablet {
+  h1 { font-size: 3 * $scale * 1rem; line-height: 3 * $leading; margin-top: 2 * $leading; }
+  h2 { font-size: 2 * $scale * 1rem; line-height: 2 * $leading; margin-top: 2 * $leading; }
+}
+
+h1 { font-size: 2 * $scale * 1rem; line-height: 3 * $leading; margin-top: 2 * $leading; }
+h2 { font-size: 1.6 * $scale * 1rem; line-height: 2 * $leading; margin-top: 2 * $leading; }
 h3 { font-size: 1 * $scale * 1rem; }
 h4 { font-size: $scale / 1.35 * 1rem; }
 h5 { font-size: $scale / 1.5 * 1rem; }

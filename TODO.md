@@ -10,24 +10,24 @@
 - Github actions autodeploy
 - Create an actual API endpoint to hit ChatGPT
 - Connect to ChatGPT
-- "current" in the nav
 - Focus styles
-- Make the menu collapse
-- Add links to content
 - text highlighting CSS would be fun
-- Does it work on your phone?
 - Run an axe scan
 - Test with a keyboard
 - update README
-- Landing page redesign
-  - Nice on a phone
-  - Text colour
 - Add a license file
 - Should I make the button jiggle? It's hard out here without a design team.
 - "On this page" widget for long content
+- Mobile
+  - Mobile menu
+  - Mobile logo
+  - Front page logo
+  - Make the chat work good
 
 # DONE
 
+- Add links to content
+- "current" in the nav
 - New fonts on markdown pages
 - Use Tyler's logo
   - Fix logo in the menu
@@ -38,6 +38,7 @@
   - First pass: mobile
   - New header font
   - Fix the spacing
+  - Text colour
 - Create GitHub repo
 - Better logo
 - Page: About

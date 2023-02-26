@@ -17,9 +17,12 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: vars.$color-grey-light;
-  padding-top: calc(2* vars.$space-xxl);
   font-family: 'Open Sans', sans-serif;
+
+  @include mixins.tablet {
+    background: vars.$color-grey-light;
+    padding-top: calc(2* vars.$space-xxl);
+  }
 }
 
 button {
@@ -96,9 +99,12 @@ del {
   display: flex;
   flex-direction: column;
   background: white;
-  margin-block-end: calc(2* vars.$space-xxl);
   min-height: 70vh;
   border-radius: 20px;
+
+  @include mixins.tablet {
+    margin-block-end: calc(2* vars.$space-xxl);
+  }
 
   header {
     flex-grow: 0;
