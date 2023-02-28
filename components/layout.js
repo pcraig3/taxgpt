@@ -19,7 +19,7 @@ export default function Layout({ children, mainClass = '', header = true }) {
         <meta name="msapplication-TileColor" content="#b60a0a" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <div className="wrapper">
+      <div className="wrapper" id="top">
         <div className="container">
           {header && (
             <header>

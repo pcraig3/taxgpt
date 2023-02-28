@@ -20,7 +20,7 @@ export default function Index() {
   return (
     <Layout mainClass="index" header={false}>
       <Head>
-        <title>TaxGPT — AI tax advisor for Canada</title>
+        <title>TaxGPT — your Canadian AI tax assistant</title>
         <meta name="description" content="TODO" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="noindex" />

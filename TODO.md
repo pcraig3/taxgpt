@@ -12,7 +12,6 @@
 - Create an actual API endpoint to hit ChatGPT
 - Connect to ChatGPT
 - Focus styles
-- text highlighting CSS would be fun
 - Run an axe scan
 - Test with a keyboard
 - update README
@@ -24,6 +23,8 @@
 
 # DONE
 
+- Back to top
+- Text highlighting CSS would be fun
 - Mobile
   - Front page logo
   - Mobile logo

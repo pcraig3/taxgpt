@@ -126,9 +126,14 @@
       }
 
       &:hover {
-        outline: 3px solid white;
         color: white;
-        outline-offset: -7px;
+      }
+
+      @include mixins.tablet {
+        &:hover {
+          outline: 3px solid white;
+          outline-offset: -7px;
+        }
       }
     }
 

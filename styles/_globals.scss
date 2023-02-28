@@ -7,22 +7,27 @@
   margin: 0;
 }
 
+::selection {
+  background: vars.$color-red-light;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: vars.$color-text;
+  scroll-behavior: smooth;
+
+  @include mixins.tablet {
+    background: vars.$color-grey-light;
+    padding-top: calc(2* vars.$space-xxl);
+  }
+}
+
 @include mixins.tablet {
   html,
   body {
     height: 100vh;
     max-width: 100vw;
     overflow-x: hidden;
-  }
-}
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  color: vars.$color-text;
-
-  @include mixins.tablet {
-    background: vars.$color-grey-light;
-    padding-top: calc(2* vars.$space-xxl);
   }
 }
 

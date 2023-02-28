@@ -21,6 +21,10 @@ header {
   display: flex;
   font-size: 1.85 * 1rem;
 
+  &:focus {
+    outline: 2px solid vars.$color-focus;
+  }
+
   &:hover, &:focus {
     text-decoration: underline;
   }

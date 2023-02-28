@@ -99,7 +99,8 @@ $mobile-xs-screen: 440px;
 
 /* licked from gov.uk 😈 */
 @mixin focus {
-  outline: 3px solid transparent;
+  outline: 3px solid vars.$color-focus;
+  outline-offset: 2px;
   color: vars.$color-black !important;
   background-color: vars.$color-red-light;
   -webkit-box-shadow: 0 -2px vars.$color-red-light, 0 4px vars.$color-black;
@@ -119,18 +120,5 @@ $mobile-xs-screen: 440px;
 
   &:after {
     clear: both;
-  }
-}
-
-@mixin links {
-  color: vars.$color-blue;
-  text-decoration: underline;
-
-  &:hover {
-    color: vars.$color-blue-highlight;
-  }
-
-  &:focus {
-    @include focus;
   }
 }

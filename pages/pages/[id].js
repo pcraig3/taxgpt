@@ -23,13 +23,17 @@ export default function Page({ pageData }) {
   return (
     <Layout>
       <Head>
-        <title>{pageData.title}</title>
+        <title>{pageData.title} — TaxGPT</title>
       </Head>
       <article>
         <h1>{pageData.title}</h1>
         <div>{pageData.subhead}</div>
         <br />
         <div dangerouslySetInnerHTML={{ __html: pageData.contentHtml }} />
+        <br />
+        <a href="#top">
+          <span aria-hidden="true">👆</span> Back to top
+        </a>
       </article>
     </Layout>
   )
