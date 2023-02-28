@@ -13,12 +13,15 @@
 - Run an axe scan
 - Test with a keyboard
 - update README
-- Add a license file
 - Should I make the button jiggle? It's hard out here without a design team.
 - "On this page" widget for long content
+- Analytics
+- Menu on home screen (mobile)
+- Menu on home screen (desktop)
 
 # DONE
 
+- Add a license file
 - Focus styles
 - Social
   - Titles

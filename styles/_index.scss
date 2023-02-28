@@ -82,7 +82,7 @@
     align-items: center;
 
     @include mixins.mobile {
-      min-height: 420px;
+      min-height: 500px;
 
       &:not(.chat-container--open) {
         border-radius: 15px;
