@@ -1,3 +1,4 @@
+@use './mixins';
 @use './vars';
 
 header {
@@ -9,29 +10,6 @@ header {
 
   a {
     background: transparent;
-  }
-
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    margin-block-start: vars.$space-xs;
-
-    li {
-      display: inline-block;
-
-      &:not(:last-of-type) {
-        margin-inline-end: vars.$space-lg;
-      }
-
-      a {
-        text-decoration: none;
-        
-        &:hover, 
-        &:focus {
-          border-bottom: 2px solid currentColor;
-        }
-      }
-    }
   }
 
   + main {
@@ -63,3 +41,70 @@ header {
   }
 }
 
+nav {
+  .nav--sm {
+    display: block;
+    flex: auto;
+    text-align: right;
+    margin-block-start: vars.$space-xs;
+
+    ul {
+      margin: vars.$space-xl 0;
+    }
+
+    li {
+      display: block;
+      margin-block-start: vars.$space-lg;
+
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .nav--lg {
+    display: none;
+
+    li {
+      display: inline-block;
+
+      &:not(:first-of-type) {
+        margin-inline-start: vars.$space-lg;
+      }
+    }
+  }
+
+  @include mixins.tablet {
+    .nav--sm {
+      display: none;
+    }
+
+    .nav--lg {
+      display: block;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    margin-block-start: vars.$space-xs;
+
+    li {
+      a {
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+          border-bottom: 2px solid currentColor;
+        }
+
+        &.nav--highlight {
+          color: vars.$color-red;
+          border: 2px solid vars.$color-red;
+          padding: 2px 8px;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}

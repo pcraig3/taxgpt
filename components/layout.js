@@ -1,13 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 
+import Nav from './Nav'
 import logo from '../public/robot.svg'
 
 export default function Layout({ children, mainClass = '', header = true }) {
-  const router = useRouter()
-
   return (
     <>
       <Head>
@@ -31,26 +29,7 @@ export default function Layout({ children, mainClass = '', header = true }) {
                   <span className="heading">TaxGPT</span>
                 </Link>
               </div>
-              <nav>
-                <ul>
-                  <li>
-                    <Link
-                      href="/pages/about"
-                      aria-current={router.asPath === '/pages/about' ? true : null}
-                    >
-                      About
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/pages/resources"
-                      aria-current={router.asPath === '/pages/resources' ? true : null}
-                    >
-                      Resources
-                    </Link>
-                  </li>
-                </ul>
-              </nav>
+              <Nav />
             </header>
           )}
           <main className={mainClass}>{children}</main>

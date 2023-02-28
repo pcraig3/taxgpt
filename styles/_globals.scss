@@ -34,7 +34,8 @@ a {
   color: currentColor;
 }
 
-main:not(.index) {
+main:not(.index),
+.preamble {
   a {
     color: vars.$color-red;
     text-decoration: underline;

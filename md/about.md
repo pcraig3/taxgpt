@@ -51,11 +51,13 @@ I analyze the data to see how TaxGPT is performing and improve the service.
 
 ### Are you making money from this?
 
-No, this is not a branded or sponsored product — TaxGPT is a completely free service. I am paying to host it, and I don’t make any money back in any way. But that’s okay because I save so much money every year by filing my taxes online for free.
+No, this is not a branded or sponsored product — TaxGPT is a completely free service. I am paying to host it, and I don’t make any money back in any way.
+
+I am actually losing tons of money on this — [someone who is good at the economy please help me budget this](https://twitter.com/dril/status/384408932061417472?lang=en).
 
 ### Why build this?
 
-Doing taxes should be easy and straightforward, so TaxGPT tries to embody that.
+Doing taxes should be simple and straightforward, so TaxGPT tries to embody that.
 
 ### There are other free tax-filing services. Why do you only recommend Wealthsimple Tax?
 

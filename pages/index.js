@@ -33,14 +33,16 @@ export default function Index() {
             <h1 className="heading">TaxGPT</h1>
           </Link>
         </div>
-        <p>
-          TaxGPT is a friendly AI assistant who helps Canadians better understand their options for
-          free tax filing.
-        </p>
-        <p>
-          TaxGPT gives advice, it doesn’t collect personal data, and it can’t file your taxes for
-          you.
-        </p>
+        <div className="preamble">
+          <p>
+            TaxGPT is a friendly AI assistant who helps Canadians understand their options for free
+            tax filing.
+          </p>
+          <p>
+            <strong>TaxGPT gives advice</strong>. It doesn’t collect personal data or file your
+            taxes for you.
+          </p>
+        </div>
       </div>
       <div className="index--right">
         <div ref={ref} className={`chat-container ${loadChat && 'chat-container--open'}`}>
@@ -55,15 +57,15 @@ export default function Index() {
                 </button>
               </li>
               <li>
-                <Link href="/pages/resources" className="button">
-                  <span>Resources</span>
-                  <Doc width="32" />
-                </Link>
-              </li>
-              <li>
                 <Link href="/pages/about" className="button">
                   <span>About TaxGPT</span>
                   <About height="30" />
+                </Link>
+              </li>
+              <li>
+                <Link href="/pages/resources" className="button">
+                  <span>Resources</span>
+                  <Doc width="32" />
                 </Link>
               </li>
               <li>

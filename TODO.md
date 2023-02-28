@@ -4,6 +4,7 @@
   - Meta descriptions
   - Meta pictures
   - OG tags
+  - Title tags
 - Generic 404 page
 - Add Github hash as part of auto deploy
 - Security headers
@@ -19,9 +20,6 @@
 - Should I make the button jiggle? It's hard out here without a design team.
 - "On this page" widget for long content
 - Mobile
-  - Mobile menu
-  - Add "Home" to menu
-  - Mobile logo
   - Make the chat work good
   - Fix weird scrolling
 
@@ -29,6 +27,9 @@
 
 - Mobile
   - Front page logo
+  - Mobile logo
+  - Mobile menu
+  - Add "Home" to menu
 - Add links to content
 - "current" in the nav
 - New fonts on markdown pages
