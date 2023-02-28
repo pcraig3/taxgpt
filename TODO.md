@@ -16,11 +16,11 @@
 - Should I make the button jiggle? It's hard out here without a design team.
 - "On this page" widget for long content
 - Analytics
-- Menu on home screen (mobile)
 - Menu on home screen (desktop)
 
 # DONE
 
+- Menu on home screen (mobile)
 - Add a license file
 - Focus styles
 - Social

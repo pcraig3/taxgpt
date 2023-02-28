@@ -38,8 +38,8 @@
 
   .index--left {
     @include mixins.mobile {
-      h1 {
-        font-size: 1.85 * 1rem;
+      .site-title {
+        display: none;
       }
     }
 

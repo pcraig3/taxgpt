@@ -21,17 +21,15 @@ export default function Layout({ children, mainClass = '', header = true }) {
       </Head>
       <div className="wrapper" id="top">
         <div className="container">
-          {header && (
-            <header>
-              <div className="site-title heading">
-                <Link href="/">
-                  <Image src={logo} className="logo logo--page" alt="Logo" />
-                  <span className="heading">TaxGPT</span>
-                </Link>
-              </div>
-              <Nav />
-            </header>
-          )}
+          <header className={!header ? 'header--hidden' : null}>
+            <div className="site-title heading">
+              <Link href="/">
+                <Image src={logo} className="logo logo--page" alt="Logo" />
+                <span className="heading">TaxGPT</span>
+              </Link>
+            </div>
+            <Nav />
+          </header>
           <main className={mainClass}>{children}</main>
         </div>
       </div>

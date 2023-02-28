@@ -12,8 +12,16 @@ header {
     background: transparent;
   }
 
-  + main {
+  + main:not(.index) {
     padding-block-end: vars.$space-xl;
+  }
+
+  &.header--hidden {
+    border-bottom: none;
+
+    @include mixins.tablet {
+      display:none;
+    }
   }
 }
 
