@@ -23,7 +23,7 @@ export default function Page({ pageData }) {
   return (
     <Layout>
       <Head>
-        <title>{pageData.title} — TaxGPT</title>
+        <title>{`${pageData.title} — TaxGPT`}</title>
       </Head>
       <article>
         <h1>{pageData.title}</h1>

@@ -4,25 +4,24 @@
   - Meta descriptions
   - Meta pictures
   - OG tags
-  - Title tags
 - Generic 404 page
 - Add Github hash as part of auto deploy
 - Security headers
 - Github actions autodeploy
 - Create an actual API endpoint to hit ChatGPT
 - Connect to ChatGPT
-- Focus styles
 - Run an axe scan
 - Test with a keyboard
 - update README
 - Add a license file
 - Should I make the button jiggle? It's hard out here without a design team.
 - "On this page" widget for long content
-- Mobile
-  - Make the chat work good
 
 # DONE
 
+- Focus styles
+- Social
+  - Titles
 - Back to top
 - Text highlighting CSS would be fun
 - Mobile
@@ -31,6 +30,7 @@
   - Mobile menu
   - Add "Home" to menu
   - Fix weird scrolling
+  - Make the chat work good
 - Add links to content
 - "current" in the nav
 - New fonts on markdown pages

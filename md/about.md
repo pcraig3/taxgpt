@@ -78,9 +78,3 @@ If you know of another free tax-filing product without dark design patterns, ple
 Great, that’s just the feedback I am looking for. Please reach out and I will do my best to address it.
 
 Just note that the quiz tries to simplify the tax journey for people with a modest income and/or a simple tax scenario. It isn’t trying to cover every possibility — I am trying to simplify things for the huge number of people that [use EFILE to file their taxes](https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/individual-income-tax-return-statistics.html) each year.
-
-### I got some inaccurate information back from TaxGPT when I asked it a question
-
-The “question and answer” part at the end uses AI to return an answer, which, in my experience, is usually pretty good, but definitely not foolproof.
-
-Bad answers will happen from time to time, which is why there is a disclaimer for every answer that comes back.
