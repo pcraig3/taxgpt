@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import Nav from './Nav'
+import Nav from './nav'
 import logo from '../public/robot.svg'
 
 export default function Layout({ children, mainClass = '', header = true }) {
@@ -17,7 +17,7 @@ export default function Layout({ children, mainClass = '', header = true }) {
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#b60a0a" />
         <meta name="msapplication-TileColor" content="#b60a0a" />
-        <meta name="theme-color" content="#b60a0a" />
+        <meta name="theme-color" content="#ffffff" />
       </Head>
       <div className="wrapper">
         <div className="container">

@@ -21,7 +21,6 @@
 - "On this page" widget for long content
 - Mobile
   - Make the chat work good
-  - Fix weird scrolling
 
 # DONE
 
@@ -30,6 +29,7 @@
   - Mobile logo
   - Mobile menu
   - Add "Home" to menu
+  - Fix weird scrolling
 - Add links to content
 - "current" in the nav
 - New fonts on markdown pages

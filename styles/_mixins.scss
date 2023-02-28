@@ -91,20 +91,6 @@ $mobile-xs-screen: 440px;
   }
 }
 
-@mixin flex-wrapper {
-  display: flex;
-  justify-content: space-between;
-
-  @include mobile {
-    flex-direction: column;
-  }
-
-  @include tablet {
-    flex-direction: row;
-    align-items: baseline;
-  }
-}
-
 @mixin logo-container {
   @include container;
   margin-top: vars.$space-xxl;

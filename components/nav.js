@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-import Details from './Details'
+import Details from './details'
 
 import { useRouter } from 'next/router'
 
