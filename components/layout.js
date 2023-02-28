@@ -27,8 +27,8 @@ export default function Layout({ children, mainClass = '', header = true }) {
             <header>
               <div className="site-title heading">
                 <Link href="/">
-                  <Image src={logo} alt="Logo" width={55} height={55} />
-                  <span>TaxGPT</span>
+                  <Image src={logo} className="logo logo--page" alt="Logo" />
+                  <span className="heading">TaxGPT</span>
                 </Link>
               </div>
               <nav>

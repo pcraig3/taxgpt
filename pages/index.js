@@ -27,8 +27,12 @@ export default function Index() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="index--left">
-        <Robot className="index--logo" width={150} />
-        <h1 className="heading">TaxGPT</h1>
+        <div className="site-title">
+          <Link href="/">
+            <Robot className="logo logo--index" />
+            <h1 className="heading">TaxGPT</h1>
+          </Link>
+        </div>
         <p>
           TaxGPT is a friendly AI assistant who helps Canadians better understand their options for
           free tax filing.

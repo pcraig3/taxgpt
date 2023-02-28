@@ -8,6 +8,13 @@ $tablet-screen: 992px;
 $tablet-container: 970px;
 $mobile-screen: 768px;
 $mobile-container: 750px;
+$mobile-xs-screen: 440px;
+
+@mixin mobile-xs {
+  @media (max-width: #{$mobile-xs-screen}) {
+    @content;
+  }
+}
 
 @mixin mobile {
   @media (max-width: #{$mobile-screen}) {

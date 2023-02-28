@@ -20,12 +20,15 @@
 - "On this page" widget for long content
 - Mobile
   - Mobile menu
+  - Add "Home" to menu
   - Mobile logo
-  - Front page logo
   - Make the chat work good
+  - Fix weird scrolling
 
 # DONE
 
+- Mobile
+  - Front page logo
 - Add links to content
 - "current" in the nav
 - New fonts on markdown pages

@@ -47,15 +47,18 @@ header {
     text-decoration: underline;
   }
 
-  img {
+  .logo {
     margin-block-start: -8px;
     background: vars.$color-red;
     border-radius: 50%;
     margin-block-end: vars.$space-sm;
+    width: 55px;
+    height: 55px;
   }
 
-  span {
-    margin-block-start: 1px;
+  .heading {
+    line-height: 1;
+    margin-block-start: 8px;
     margin-inline-start: vars.$space-sm;
   }
 }

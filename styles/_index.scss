@@ -5,6 +5,10 @@
   display: flex;
   flex-direction: column;
 
+  @include mixins.mobile {
+    max-width: 560px;
+  }
+
   @include mixins.desktop {
     flex-direction: row;
   }
@@ -14,7 +18,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-block-start: vars.$space-xxl;
+    padding-block-start: vars.$space-xl;
   }
 
   @include mixins.desktop {
@@ -32,12 +36,40 @@
   }
 
   .index--left {
-    .index--logo {
-      background: vars.$color-red;
-      border-radius: 100%;
+    @include mixins.mobile {
+      h1 {
+        font-size: 1.85 * 1rem;
+      }
     }
 
-    h1, p {
+    @include mixins.tablet {
+      .site-title a {        
+        .logo {
+          height: 75px;
+          width: 75px;
+        }
+      }
+    }
+    
+    @include mixins.desktop {
+      .site-title a {
+        flex-direction: column;
+        margin-block-end: vars.$space-sm;
+        width: 200px;
+
+        .logo {
+          height: 150px;
+          width: 150px;
+        }
+
+        .heading {
+          margin-inline-start: 0;
+          margin-block-start: vars.$space-sm;
+        }
+      }
+    }
+
+    p {
       margin-block-start: vars.$space-md;
     }
   }
@@ -73,6 +105,7 @@
     margin: 0;
     list-style-type: none;
     width: 100%;
+    // max-width: 500px;
   }
 
   li {
