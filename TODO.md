@@ -1,9 +1,5 @@
 # TODO
 
-- Social
-  - Meta descriptions
-  - Meta pictures
-  - OG tags
 - Generic 404 page
 - Add Github hash as part of auto deploy
 - Github actions autodeploy
@@ -16,9 +12,14 @@
 - "On this page" widget for long content
 - Menu on home screen (desktop)
 - Remove noindex
+- Share instead of Email
 
 # DONE
 
+- Social
+  - Meta descriptions
+  - Meta pictures
+  - OG tags
 - Bugfix: square outline on button on Safari
 - Minimize logo
 - Analytics

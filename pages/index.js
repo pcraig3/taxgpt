@@ -21,10 +21,15 @@ export default function Index() {
     <Layout mainClass="index" header={false}>
       <Head>
         <title>TaxGPT — your Canadian AI tax assistant</title>
-        <meta name="description" content="TODO" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="robots" content="noindex" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="description"
+          content="TaxGPT is a friendly AI assistant who helps Canadians find free tax-filing options."
+        />
+        <link rel="canonical" href="https://taxgpt.ca"></link>
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="TaxGPT" />
+        <meta property="og:url" content="https://taxgpt.ca" />
       </Head>
       <div className="index--left">
         <div className="site-title">

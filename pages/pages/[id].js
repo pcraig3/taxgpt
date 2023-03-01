@@ -23,7 +23,14 @@ export default function Page({ pageData }) {
   return (
     <Layout>
       <Head>
-        <title>{`${pageData.title} — TaxGPT`}</title>
+        <title>{`${pageData.title} — TaxGPT`}</title>
+
+        <meta name="description" content={pageData.meta} />
+        <link rel="canonical" href={`https://taxgpt.ca/pages/${pageData.id}`}></link>
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={`${pageData.title} — TaxGPT`} />
+        <meta property="og:url" content={`https://taxgpt.ca/pages/${pageData.id}`} />
       </Head>
       <article>
         <h1>{pageData.title}</h1>

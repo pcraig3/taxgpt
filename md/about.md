@@ -1,13 +1,16 @@
 ---
 title: 'About & FAQ'
 subhead: 'Everything you want to know and plenty you don’t.'
+meta: 'About TaxGPT & FAQ. Lots of answers, including: No, I am not sponsored by Wealthsimple.'
 ---
 
 ## About
 
 TaxGPT is an experimental AI chatbot advisor to help Canadians better understand their options for free tax filing. TaxGPT is under active development, so the question flow or the specific wording may change between releases.
 
-TaxGPT is not a Government of Canada service. You can [chat with Charlie the Chatbot](https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html) on the Canada Revenue Agency’s website, but he doesn’t know your basic personal amount for 2022, and he’s not very good with emojis.
+**TaxGPT is not sponsored by any company, it’s a 100% free service with no affiliations.**
+
+TaxGPT is also _not_ a Government of Canada service. You can [chat with Charlie the Chatbot](https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html) on the Canada Revenue Agency’s website, but he doesn’t know your basic personal amount for 2022, and he’s not very good with emojis.
 
 The source code for [TaxGPT.ca is on GitHub](https://github.com/pcraig3/tax-gpt), and I used [Typebot](https://typebot.io/) for the chatbot interaction, which I found to be excellent.
 
