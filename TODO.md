@@ -6,7 +6,6 @@
   - OG tags
 - Generic 404 page
 - Add Github hash as part of auto deploy
-- Security headers
 - Github actions autodeploy
 - Create an actual API endpoint to hit ChatGPT
 - Connect to ChatGPT
@@ -17,9 +16,12 @@
 - "On this page" widget for long content
 - Analytics
 - Menu on home screen (desktop)
+- Minimize logo
+- Remove noindex
 
 # DONE
 
+- Security headers
 - Menu on home screen (mobile)
 - Add a license file
 - Focus styles

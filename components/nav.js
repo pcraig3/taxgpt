@@ -11,7 +11,9 @@ const NavLinks = () => {
   return (
     <ul>
       <li>
-        <Link href="/">Home</Link>
+        <Link href="/" aria-current={router.asPath === '/' ? true : null}>
+          Home
+        </Link>
       </li>
       <li>
         <Link href="/pages/about" aria-current={router.asPath === '/pages/about' ? true : null}>
