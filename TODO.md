@@ -14,13 +14,14 @@
 - update README
 - Should I make the button jiggle? It's hard out here without a design team.
 - "On this page" widget for long content
-- Analytics
 - Menu on home screen (desktop)
-- Minimize logo
 - Remove noindex
 
 # DONE
 
+- Bugfix: square outline on button on Safari
+- Minimize logo
+- Analytics
 - Security headers
 - Menu on home screen (mobile)
 - Add a license file
