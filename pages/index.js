@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 import Layout from '../components/layout'
+import Preamble from '../components/preamble'
 import { About, Doc, Mail, Robot, Talk } from '../components/icons'
 
 export default function Index() {
@@ -28,16 +29,7 @@ export default function Index() {
             <h1 className="heading">TaxGPT</h1>
           </Link>
         </div>
-        <div className="preamble">
-          <p>
-            TaxGPT is a friendly AI assistant who helps Canadians understand their options for free
-            tax filing.
-          </p>
-          <p>
-            <strong>TaxGPT gives advice</strong>. It doesn’t collect personal data or file your
-            taxes for you.
-          </p>
-        </div>
+        <Preamble />
       </div>
       <div className="index--right">
         <div className="chat-container">

@@ -68,7 +68,7 @@ I think [Wealthsimple Tax](https://www.wealthsimple.com/en-ca/tax) is the best p
 
 Some other tax filing products offer a free tier but then they try to undermine your confidence before you hit ‘submit’ — either suggesting you could get more money back with a paid verison, or recommending you have an expert look it over.
 
-The main reason that Canadians don’t file on their own is a lack of confidence, and design patterns and marketing campaigns that reinforce that message reinforce the mistaken notion that tax filing is something best left to professionals.
+The main reason that Canadians don’t file on their own is a lack of confidence. Marketing campaigns and ‘dark design’ patterns often intentionally reinforce the mistaken notion that tax filing is something best left to professionals.
 
 We don’t need “voting professionals” to fill out ballots for us during elections; similarly, most Canadians are capable of filing their own returns with the right tool and some encouragement.
 

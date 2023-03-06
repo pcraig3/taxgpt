@@ -19,6 +19,7 @@
     flex-direction: column;
     justify-content: center;
     padding-block-start: vars.$space-xl;
+    position: relative;
   }
 
   @include mixins.desktop {
@@ -126,37 +127,6 @@
   li {
     margin-block-end: vars.$space-lg;
 
-    &:first-of-type .button {
-      width: 100%;
-      background: vars.$color-red;
-      border: 4px solid vars.$color-red;
-      color: white;
-
-      > svg {
-        fill: white !important;
-      }
-
-      &:focus {
-        color: white;
-      }
-
-      &:hover {
-        color: white;
-      }
-
-      &:focus::before,
-        &:hover::before {
-          content: "";
-          position: absolute;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          left: 0;
-          border: 3px solid white;
-          border-radius: inherit;
-      }
-    }
-
     .button  {
       position: relative;
       font-size: 1rem;
@@ -166,7 +136,6 @@
       white-space: normal;
       border: 4px solid vars.$color-red-light;
       position: relative;
-      display: inline-block;
       width: 100%;
       justify-content: space-between;
       display: inline-flex;
@@ -189,5 +158,106 @@
         }
       }
     }
+
+    &:first-of-type .button {
+      width: 100%;
+      background: vars.$color-red;
+      border: 4px solid vars.$color-red;
+      color: white;
+
+      > svg {
+        fill: white;
+      }
+
+      &:focus {
+        color: white;
+      }
+
+      &:hover {
+        color: white;
+      }
+
+      &:focus::before,
+        &:hover::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          border: 3px solid white;
+          border-radius: inherit;
+      }
+    }
+  }
+
+  .preamble--chat li:first-of-type {
+    text-align: center;
+    margin-bottom: 0;
+
+    .button--back {
+      background-color: white;
+      text-decoration: none;
+      color: vars.$color-text;
+      width: 60%;
+      padding: vars.$space-sm vars.$space-lg;
+      border: 3px solid vars.$color-red-light;
+      justify-content: center;
+      max-width: 220px;
+      margin-block-start: vars.$space-lg;
+      margin-block-end: calc(-1 * vars.$space-xs);
+
+      @include mixins.mobile {
+        width: 100%;
+      }
+
+      > svg {
+        fill: black;
+        margin-inline-end: vars.$space-md;
+      }
+
+      &:hover, &:focus {
+        color: vars.$color-red;
+        border: 3px solid vars.$color-red;
+        box-shadow: none;
+
+        > svg {
+          fill: vars.$color-red;
+        }
+      }
+    }
+  }
+}
+
+.index {
+  .preamble {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .preamble--index,
+  .preamble--chat {
+    grid-area: 1 / 1 / 1 / 1;
+    visibility: hidden;
+  }
+
+  .preamble--index {
+    z-index: 1;
+    visibility: visible;
+  }
+}
+
+.index--chat {
+  .preamble--index {
+    z-index: 1;
+    visibility: hidden;
+  }
+
+  .preamble--chat {
+    z-index: 2;
+    visibility: visible;
   }
 }

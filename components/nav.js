@@ -16,6 +16,15 @@ const NavLinks = () => {
         </Link>
       </li>
       <li>
+        <Link
+          className="nav--highlight"
+          href="/chat"
+          aria-current={router.asPath === '/chat' ? true : null}
+        >
+          Chat
+        </Link>
+      </li>
+      <li>
         <Link href="/pages/about" aria-current={router.asPath === '/pages/about' ? true : null}>
           About
         </Link>

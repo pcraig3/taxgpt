@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 500 350" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<clipPath id="ArtboardFrame">
+<rect height="350" width="500" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Untitled">
+<g opacity="1">
+<path d="M482.772 159.091L58.8686 159.091L201.848 27.1546C208.579 20.9437 208.579 10.8728 201.848 4.6582C195.117-1.55273 184.202-1.55273 177.467 4.6582L5.04842 163.75C-1.68281 169.96-1.68281 180.031 5.04842 186.246L177.467 345.337C180.838 348.448 185.241 350 189.655 350C194.07 350 198.477 348.448 201.844 345.337C208.575 339.126 208.575 329.055 201.844 322.841L58.8548 190.904L482.758 190.904C492.276 190.904 500 183.777 500 174.995C500 166.213 492.276 159.086 482.758 159.086L482.772 159.091Z" fill="#000000" fill-rule="nonzero" opacity="1" stroke="none"/>
+</g>
+</g>
+</svg>

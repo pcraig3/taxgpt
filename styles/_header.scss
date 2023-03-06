@@ -104,16 +104,16 @@ nav {
     li {
       a {
         text-decoration: none;
+        border: 2px solid transparent;
 
         &:hover,
         &:focus {
           border-bottom: 2px solid currentColor;
         }
 
-        &.nav--highlight {
-          color: vars.$color-red;
-          border: 2px solid vars.$color-red;
+        &[aria-current] {
           padding: 2px 8px;
+          border: 2px solid vars.$color-text;
           border-radius: 10px;
         }
       }

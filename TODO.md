@@ -1,21 +1,29 @@
 # TODO
 
-- Generic 404 page
 - Add Github hash as part of auto deploy
 - Github actions autodeploy
 - Create an actual API endpoint to hit ChatGPT
-- Connect to ChatGPT
 - Run an axe scan
 - Test with a keyboard
-- update README
 - Should I make the button jiggle? It's hard out here without a design team.
 - "On this page" widget for long content
-- Menu on home screen (desktop)
-- Remove noindex
+
+# BEFORE LAUNCH
+
 - Share instead of Email
+  - Twitter
+  - Facebook
+- Clean up resources page
+- Links to headers
+- Save opened chat instead of resetting it
+- Remove noindex
+- update README
+- Connect to ChatGPT
+- Generic 404 page
 
 # DONE
 
+- Add chat page
 - Social
   - Meta descriptions
   - Meta pictures
