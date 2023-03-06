@@ -20,14 +20,12 @@ function Preamble() {
         <p>
           <strong>TaxGPT is not sponsored by anyone</strong>.
         </p>
-        <ul className="chat--links">
-          <li>
-            <Link href="/" className="button button--back">
-              <Back width="25" />
-              <span>Back</span>
-            </Link>
-          </li>
-        </ul>
+        <div className="preamble--buttons">
+          <Link href="/" className="button button--back">
+            <Back width="25" />
+            <span>Back</span>
+          </Link>
+        </div>
       </div>
     </div>
   )

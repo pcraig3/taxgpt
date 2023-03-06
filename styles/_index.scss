@@ -124,39 +124,44 @@
     width: 100%;
   }
 
-  li {
-    margin-block-end: vars.$space-lg;
+  .button  {
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: vars.$space-lg vars.$space-xxl;
+    border-radius: 50px;
+    white-space: normal;
+    border: 4px solid vars.$color-red-light;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    display: inline-flex;
+    background-color: white;
+    transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 
-    .button  {
-      position: relative;
-      font-size: 1rem;
-      line-height: 1.5;
-      padding: vars.$space-lg vars.$space-xxl;
-      border-radius: 50px;
-      white-space: normal;
-      border: 4px solid vars.$color-red-light;
-      position: relative;
-      width: 100%;
-      justify-content: space-between;
-      display: inline-flex;
-      background-color: white;
-      transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+    &:focus {
+      outline: 3px solid vars.$color-focus;
+      outline-offset: 2px;
+    }
 
-      &:focus {
-        outline: 3px solid vars.$color-focus;
-        outline-offset: 2px;
+    &:hover, &:focus {
+      transform: scale(1.0425);
+      cursor: pointer;
+      color: vars.$color-red;
+      border: 4px solid vars.$color-red;
+
+      > svg {
+        fill: vars.$color-red;
       }
+    }
+  }
+}
 
-      &:hover, &:focus {
-        transform: scale(1.0425);
-        cursor: pointer;
-        color: vars.$color-red;
-        border: 4px solid vars.$color-red;
+.buttons--index {
+  > li {
 
-        > svg {
-          fill: vars.$color-red;
-        }
-      }
+    &:not(:last-of-type) {
+      margin-block-end: vars.$space-lg;
     }
 
     &:first-of-type .button {
@@ -190,40 +195,39 @@
       }
     }
   }
+}
 
-  .preamble--chat li:first-of-type {
-    text-align: center;
-    margin-bottom: 0;
+.preamble--buttons {
+  text-align: center;
+  margin-bottom: 0;
 
-    .button--back {
-      background-color: white;
-      text-decoration: none;
-      color: vars.$color-text;
-      width: 60%;
-      padding: vars.$space-sm vars.$space-lg;
-      border: 3px solid vars.$color-red-light;
-      justify-content: center;
-      max-width: 220px;
-      margin-block-start: vars.$space-lg;
-      margin-block-end: calc(-1 * vars.$space-xs);
+  .button--back {
+    text-decoration: none;    
+    color: vars.$color-text;
+    width: 60%;
+    padding: vars.$space-sm vars.$space-lg;
+    border: 3px solid vars.$color-red-light;
+    justify-content: center;
+    max-width: 220px;
+    margin-block-start: vars.$space-lg;
+    margin-block-end: calc(-1 * vars.$space-xs);
 
-      @include mixins.mobile {
-        width: 100%;
-      }
+    @include mixins.mobile {
+      width: 100%;
+    }
+
+    > svg {
+      margin-inline-end: vars.$space-md;
+    }
+
+    &:hover, &:focus {
+      color: vars.$color-red;
+      background: white;
+      border: 3px solid vars.$color-red;
+      box-shadow: none;
 
       > svg {
-        fill: black;
-        margin-inline-end: vars.$space-md;
-      }
-
-      &:hover, &:focus {
-        color: vars.$color-red;
-        border: 3px solid vars.$color-red;
-        box-shadow: none;
-
-        > svg {
-          fill: vars.$color-red;
-        }
+        fill: vars.$color-red;
       }
     }
   }
@@ -259,5 +263,44 @@
   .preamble--chat {
     z-index: 2;
     visibility: visible;
+  }
+}
+
+.index--share {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  //border: 2px solid #f8f8f8;
+  background: #f8f8f8;
+  border-radius: 50px;
+  padding: 10px 20px 10px 50px;
+
+  > div {
+    flex: 1;
+  }
+
+  > ul {
+    flex: 5;
+    text-align: right;
+  }
+
+  li {
+    display: inline-block;
+
+    &:not(:last-of-type) {
+      a.button {
+        margin-inline-end: vars.$space-sm;
+      }
+    }
+
+    a.button {
+      width: auto;
+      padding: vars.$space-md vars.$space-lg;
+
+      svg {
+        width: 30px;
+        fill: vars.$color-text;
+      }
+    }
   }
 }

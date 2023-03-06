@@ -1,5 +1,4 @@
 @use "./vars";
-/* ~TODO: look at these */
 
 /* Mixins are compiled ahead of time, so we can't use CSS vars in our mq mixins */
 $desktop-screen: 1200px;
@@ -91,17 +90,11 @@ $mobile-xs-screen: 440px;
   }
 }
 
-@mixin logo-container {
-  @include container;
-  margin-top: vars.$space-xxl;
-  margin-bottom: vars.$space-xxl;
-}
-
 /* licked from gov.uk 😈 */
 @mixin focus {
   outline: 3px solid vars.$color-focus;
   outline-offset: 2px;
-  color: vars.$color-black !important;
+  color: vars.$color-black;
   background-color: vars.$color-red-light;
   -webkit-box-shadow: 0 -2px vars.$color-red-light, 0 4px vars.$color-black;
   box-shadow: 0 -2px vars.$color-red-light, 0 4px vars.$color-black;
