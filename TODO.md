@@ -23,6 +23,7 @@
 
 # DONE
 
+- Pattern background
 - Add chat page
 - Social
   - Meta descriptions

@@ -88,7 +88,7 @@
       &:not(.chat-container--open) {
         border-radius: 15px;
         padding:  vars.$space-md;
-        align-items: flex-start;
+        align-items: center;
         background: #fdfdfd;
         border: 1px solid #eee;
       }
