@@ -104,7 +104,6 @@ nav {
     li {
       a {
         text-decoration: none;
-        border: 2px solid transparent;
 
         &:hover,
         &:focus {
@@ -112,9 +111,7 @@ nav {
         }
 
         &[aria-current] {
-          padding: 2px 8px;
-          border: 2px solid vars.$color-text;
-          border-radius: 10px;
+          font-weight: 700;
         }
       }
     }

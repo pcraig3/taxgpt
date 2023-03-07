@@ -1,0 +1,190 @@
+@use './mixins';
+@use './vars';
+
+.button  {
+  position: relative;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: vars.$space-lg vars.$space-xxl;
+  border-radius: 50px;
+  white-space: normal;
+  border: 4px solid vars.$color-red-light;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  display: inline-flex;
+  background-color: white;
+  transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+
+  &:focus {
+    outline: 3px solid vars.$color-focus;
+    outline-offset: 2px;
+  }
+
+  &:hover, &:focus {
+    transform: scale(1.0425);
+    cursor: pointer;
+    color: vars.$color-red;
+    border: 4px solid vars.$color-red;
+
+    > svg {
+      fill: vars.$color-red;
+    }
+  }
+}
+
+.buttons--index {
+  > li {
+
+    &:not(:last-of-type) {
+      margin-block-end: vars.$space-lg;
+    }
+
+    &:first-of-type .button {
+      width: 100%;
+      background: vars.$color-red;
+      border: 4px solid vars.$color-red;
+      color: white;
+
+      > svg {
+        fill: white;
+      }
+
+      &:focus {
+        color: white;
+      }
+
+      &:hover {
+        color: white;
+      }
+
+      &:focus::before,
+        &:hover::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          border: 3px solid white;
+          border-radius: inherit;
+      }
+    }
+  }
+}
+
+.preamble--buttons {
+  text-align: center;
+  margin-bottom: 0;
+
+  .button--back {
+    text-decoration: none;    
+    color: vars.$color-text;
+    width: 60%;
+    padding: vars.$space-sm vars.$space-lg;
+    border: 3px solid vars.$color-red-light;
+    justify-content: center;
+    max-width: 220px;
+    margin-block-start: vars.$space-lg;
+    margin-block-end: calc(-1 * vars.$space-xs);
+
+    @include mixins.mobile {
+      width: 100%;
+    }
+
+    > svg {
+      margin-inline-end: vars.$space-md;
+    }
+
+    &:hover, &:focus {
+      color: vars.$color-red;
+      background: white;
+      border: 3px solid vars.$color-red;
+      box-shadow: none;
+
+      > svg {
+        fill: vars.$color-red;
+      }
+    }
+  }
+}
+
+.index--share {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  background: #f8f8f8;
+  border-radius: 50px;
+  padding: 10px 10px 10px 50px;
+  margin-bottom: vars.$space-lg;
+
+  > div {
+    flex: 1;
+  }
+
+  > ul {
+    flex: 5;
+    text-align: right;
+  }
+
+  li {
+    display: inline-block;
+
+    &:not(:last-of-type) {
+      a.button {
+        margin-inline-end: vars.$space-sm;
+      }
+    }
+
+    a.button {
+      width: auto;
+      padding: vars.$space-md vars.$space-xl;
+
+      svg {
+        width: 30px;
+        fill: vars.$color-text;
+      }
+    }
+  }
+
+  @include mixins.mobile-xs {
+    padding: 10px 20px 10px 20px;
+    margin-bottom: vars.$space-lg;
+    flex-direction: column;
+
+    > div {
+      margin-bottom: vars.$space-sm;
+    }
+
+    > ul {
+      text-align: center;
+    }
+
+    li a.button {
+      padding: vars.$space-md;
+    }
+  }
+
+  @include mixins.tablet {
+
+    li a.button {
+      padding: vars.$space-md vars.$space-xxl;
+    }
+  }
+
+  @include mixins.desktop {
+    padding: 10px 10px 10px 50px;
+
+    li a.button {
+      padding: vars.$space-md;
+    }
+  }
+
+  @include mixins.desktop-xl {
+    padding: 10px 20px 10px 50px;
+
+    li a.button {
+      padding: vars.$space-md vars.$space-lg;
+    }
+  }
+}
