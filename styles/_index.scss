@@ -132,38 +132,6 @@
     list-style-type: none;
     width: 100%;
   }
-
-  .button  {
-    position: relative;
-    font-size: 1rem;
-    line-height: 1.5;
-    padding: vars.$space-lg vars.$space-xxl;
-    border-radius: 50px;
-    white-space: normal;
-    border: 4px solid vars.$color-red-light;
-    position: relative;
-    width: 100%;
-    justify-content: space-between;
-    display: inline-flex;
-    background-color: white;
-    transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-
-    &:focus {
-      outline: 3px solid vars.$color-focus;
-      outline-offset: 2px;
-    }
-
-    &:hover, &:focus {
-      transform: scale(1.0425);
-      cursor: pointer;
-      color: vars.$color-red;
-      border: 4px solid vars.$color-red;
-
-      > svg {
-        fill: vars.$color-red;
-      }
-    }
-  }
 }
 
 .index {

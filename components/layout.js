@@ -35,10 +35,10 @@ export default function Layout({ children, mainClass = '', header = true }) {
       <div className="wrapper" id="top">
         <div className="container">
           <header className={!header ? 'header--hidden' : null}>
-            <div className="site-title heading">
+            <div className="site-title">
               <Link href="/">
                 <Image src={logo} className="logo logo--page" alt="Logo" />
-                <span className="heading">TaxGPT</span>
+                <span className="wordmark">TaxGPT</span>
               </Link>
             </div>
             <Nav />

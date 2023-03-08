@@ -34,7 +34,7 @@ export default function Chat() {
         <div className="site-title">
           <Link href="/">
             <Robot className="logo logo--index" />
-            <h1 className="heading">TaxGPT</h1>
+            <h1 className="wordmark">TaxGPT</h1>
           </Link>
         </div>
         <Preamble />

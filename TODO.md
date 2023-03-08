@@ -12,7 +12,6 @@
 # BEFORE LAUNCH
 
 - Clean up resources page
-- Links to headers in markdown
 - Remove noindex
 - update README
 - Connect to ChatGPT
@@ -22,6 +21,8 @@
 
 # DONE
 
+- Links to headers in markdown
+  - Also add a table of contents
 - Share instead of Email
   - Twitter
   - Facebook

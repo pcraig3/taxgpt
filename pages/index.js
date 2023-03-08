@@ -26,7 +26,7 @@ export default function Index() {
         <div className="site-title">
           <Link href="/">
             <Robot className="logo logo--index" />
-            <h1 className="heading">TaxGPT</h1>
+            <h1 className="wordmark">TaxGPT</h1>
           </Link>
         </div>
         <FB width="0" height="0" aria-hidden="true" />

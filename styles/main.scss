@@ -10,11 +10,7 @@
 @use './buttons';
 @use './details';
 @use './header';
+@use './toc';
 
 /* pages */
 @use './index';
-
-/* TODO: dev mode only */
-// body * {
-//   outline: 1px solid #e5e5e5;
-// }

@@ -4,12 +4,14 @@ subhead: 'Everything you want to know and plenty you don’t.'
 meta: 'About TaxGPT & FAQ. Lots of answers, including: No, I am not sponsored by Wealthsimple.'
 ---
 
-<div class="table-of-contents--wrapper">
-<div class="table-of-contents--header">On this page</div>
+<details class="table-of-contents--wrapper" open>
+<summary class="table-of-contents--heading heading">
+<span>On this page</span>
+</summary>
 
 ${toc}
 
-</div>
+</details>
 
 ## About
 
@@ -69,7 +71,7 @@ I am actually losing tons of money on this — [someone who is good at the econo
 
 Doing taxes should be simple and straightforward, so TaxGPT tries to embody that.
 
-### There are other free tax-filing services. Why do you only recommend Wealthsimple Tax?
+### Why do you only recommend Wealthsimple Tax?
 
 I think [Wealthsimple Tax](https://www.wealthsimple.com/en-ca/tax) is the best product for most people.
 

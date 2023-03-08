@@ -82,7 +82,7 @@ h2 {
   font-weight: 500;
 }
 
-.heading {
+.wordmark {
   font-family: 'League Spartan','Inter Tight',system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji;
   letter-spacing: -0.02em;
   font-weight: 500;
@@ -93,7 +93,12 @@ article {
 
   h1 + div {
     margin-block-start: vars.$space-xs;
-    font-size: 1.207rem
+    font-size: 1.207rem;
+  }
+
+  a[href="#top"] {
+    display: inline-block;
+    margin-block-start: vars.$space-xxl;
   }
 }
 

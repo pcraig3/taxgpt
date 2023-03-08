@@ -1,0 +1,55 @@
+@use './mixins';
+@use './vars';
+
+.table-of-contents--wrapper {
+  margin-block-start: vars.$space-xxl;
+
+  .table-of-contents--heading {
+    font-size: 1.207rem; //1.414rem;
+
+    span {
+      text-decoration: none;
+    }
+
+    &:focus, 
+    &:hover {
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  .table-of-contents {
+    border-left: 5px solid vars.$color-grey-md;
+    padding-inline-start: vars.$space-lg;
+    margin-block-start: vars.$space-lg;
+
+    ol {
+      list-style-type: none;
+      margin-block-start: vars.$space-xs;
+      margin-block-end: vars.$space-sm;
+    }
+
+    li {
+      margin-block-end: vars.$space-xs;
+
+      a {
+        color: vars.$color-text;
+
+        &:hover {
+          background: transparent;
+        }
+      }
+    }
+
+    ol li ol {
+      margin-left: 0px;
+
+      li:before {
+          content: "☞";
+          margin-right: .5rem;
+        }
+      }
+    }
+  
+}
