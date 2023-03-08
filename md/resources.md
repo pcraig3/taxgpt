@@ -13,21 +13,42 @@ ${toc}
 
 </details>
 
-### What is TaxGPT?
+## Recommended resources
 
-TaxGPT is an experimental AI chatbot advisor to help Canadians better understand their options for free tax filing. TaxGPT’s goal is to empower Canadians with simple tax situations to consider filing their own returns.
+These are the resources recommended by TaxGPT.
 
-**TaxGPT is not sponsored by any company, it’s a 100% free service with no affiliations.**
+In general, it should be straightforward to file your 2022 Canadian taxes for free if you have a [simple tax situation](#what-is-a-simple-tax-situation%3F), whether [online](#what-are-my-options-for-self-filing-online%3F) or at a [community volunteer tax clinic](#what-is-the-community-volunteer-income-tax-program%3F).
 
-Here are all the resources recommended by TaxGPT on a page you can link to instead of in a chat window that disappears.
+### Free tax filing
+
+Here are some links to help you file for free.
+
+- [Free tax clinics](https://www.canada.ca/en/revenue-agency/services/tax/individuals/community-volunteer-income-tax-program.html): get help filing your taxes for free if you have a simple tax situation and a modest income.
+- [Wealthsimple Tax](https://www.wealthsimple.com/en-ca/tax): TaxGPT’s recommended online tax-filing product.
+- [How to File Taxes Online for Free in Canada](https://www.wealthsimple.com/en-ca/learn/file-taxes-free-canada): in-depth blog post on how to file your taxes for free.
+- [Free or pay-what-you-want tax software](https://www.canada.ca/en/revenue-agency/services/e-services/e-services-individuals/netfile-overview/certified-software-netfile-program.html#h_1): all free tax-filing software in Canada approved by the CRA.
+- [File my Return automated phone service](https://www.canada.ca/en/revenue-agency/campaigns/file-my-return.html): auto-file over the phone for eligible filers.
+
+### Canada Revenue Agency
+
+The [Canada Revenue Agency (CRA)](https://www.canada.ca/en/revenue-agency.html) is Canada’s tax agency. Here are some useful links:
+
+- [Who should file a return](https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/who-should-file-tax.html): understand when you need to file a tax return
+- [Free tax clinics](https://www.canada.ca/en/revenue-agency/services/tax/individuals/community-volunteer-income-tax-program.html): get help filing your taxes for free if you have a simple tax situation and a modest income
+- [Personal income tax](https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html): comprehensive information on individual tax filing. You can also “Chat with Charlie” on this page.
+- [CRA My Account](https://www.canada.ca/en/revenue-agency/services/e-services/e-services-individuals/account-individuals.html): create a CRA account to see your tax information online, and make filing easier with online tax software.
+
+## Quick explainers
+
+Simple explanations of key concepts.
 
 ### What is a simple tax situation?
 
-The [Community Volunteer Income Tax Program (CVITP)](https://www.canada.ca/en/revenue-agency/services/tax/individuals/community-volunteer-income-tax-program.html) defines a ‘simple tax situation’ based on income sources. You most likely have a simple tax situation if your income comes from your job, your pension, government benefits, or investments under $1000.
+The [Community Volunteer Income Tax Program (CVITP)](https://www.canada.ca/en/revenue-agency/services/tax/individuals/community-volunteer-income-tax-program.html) defines a ‘simple tax situation’ based on income sources. You most likely have a simple tax situation if your income comes from your job, your pension, government benefits, or investments under $1,000.
 
 A simple tax situation is related to your sources of income, not the amount.
 
-Canadians with a salary and RRSP contributions or income from government benefit programs have a simple tax scenario with fairly straightforward filing requirements. In general, people with a simple tax scenario should be able to file for free online using intuitive tax-filing apps.
+Canadians with a salary and RRSP contributions or income from government benefit programs usually have a simple tax scenario with fairly straightforward filing requirements. If this sounds like you, you should be able to [file for free online](#what-are-my-options-for-self-filing-online%3F).
 
 ### How do I know if I have a simple tax situation?
 
@@ -55,6 +76,6 @@ If you have a [CRA My Account](https://www.canada.ca/en/revenue-agency/services/
 
 Read “[How to File Taxes Online for Free in Canada](https://www.wealthsimple.com/en-ca/learn/file-taxes-free-canada)” to see more options, including Wealthsimple Tax.
 
-### “I think you’ve missed one”
+### “I think you should add \_\_\_”
 
-Not seeing something here that you expected? Reach out to me a [paul@pcraig3.ca](mailto:paul@pcraig3.ca) and let me know.
+Not seeing something here that you expected? Reach out to me at [paul@pcraig3.ca](mailto:paul@pcraig3.ca) and let me know.

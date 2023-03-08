@@ -11,7 +11,7 @@ export default function Index() {
   return (
     <Layout mainClass="index" header={false}>
       <Head>
-        <title>TaxGPT — your Canadian AI tax assistant</title>
+        <title>TaxGPT — Canada’s AI tax assistant</title>
         <meta
           name="description"
           content="TaxGPT is a friendly AI assistant who helps Canadians find free tax-filing options."

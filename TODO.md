@@ -8,10 +8,10 @@
 - Should I make the button jiggle? It's hard out here without a design team.
 - "On this page" widget for long content
 - Save opened chat instead of resetting it
+- CSS wave for the logo
 
 # BEFORE LAUNCH
 
-- Clean up resources page
 - Remove noindex
 - update README
 - Connect to ChatGPT
@@ -21,6 +21,7 @@
 
 # DONE
 
+- Clean up resources page
 - Links to headers in markdown
   - Also add a table of contents
 - Share instead of Email
