@@ -14,7 +14,7 @@ export default function Chat() {
 
   useEffect(() => {
     setHeight(ref.current.clientHeight)
-  })
+  }, [])
 
   return (
     <Layout mainClass="index index--chat" header={false}>
