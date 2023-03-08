@@ -17,10 +17,10 @@
 - Connect to ChatGPT
 - Deploy through Github otherwise we can’t build the container
   - Or just run the steps locally
-- Generic 404 page
 
 # DONE
 
+- Generic 404 page
 - Clean up resources page
 - Links to headers in markdown
   - Also add a table of contents
