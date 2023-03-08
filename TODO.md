@@ -7,22 +7,24 @@
 - Test with a keyboard
 - Should I make the button jiggle? It's hard out here without a design team.
 - "On this page" widget for long content
+- Save opened chat instead of resetting it
 
 # BEFORE LAUNCH
 
-- Share instead of Email
-  - Twitter
-  - Facebook
 - Clean up resources page
-- Links to headers
-- Save opened chat instead of resetting it
+- Links to headers in markdown
 - Remove noindex
 - update README
 - Connect to ChatGPT
+- Deploy through Github otherwise we can’t build the container
+  - Or just run the steps locally
 - Generic 404 page
 
 # DONE
 
+- Share instead of Email
+  - Twitter
+  - Facebook
 - Pattern background
 - Add chat page
 - Social

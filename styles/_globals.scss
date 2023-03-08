@@ -49,17 +49,21 @@ a {
 
 main:not(.index),
 .preamble {
-  a {
+  a:focus {
+    @include mixins.focus;
+  }
+
+  a:not(.header-anchor) {
     color: vars.$color-red;
     text-decoration: underline;
 
     &:hover, &:focus {
       background-color: vars.$color-red-light;
     }
+  }
 
-    &:focus {
-      @include mixins.focus;
-    }
+  a.header-anchor:hover {
+    text-decoration: underline;
   }
 }
 

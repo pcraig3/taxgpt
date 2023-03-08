@@ -12,14 +12,14 @@
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
     "gray-matter": "^4.0.3",
+    "markdown-it": "^13.0.1",
+    "markdown-it-anchor": "^8.6.7",
+    "markdown-it-attrs": "^4.1.6",
+    "markdown-it-toc-done-right": "^4.2.0",
     "next": "13.1.6",
     "nextjs-google-analytics": "^2.3.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "rehype-external-links": "^2.0.1",
-    "remark": "^14.0.2",
-    "remark-external-links": "^9.0.1",
-    "remark-html": "^15.0.2",
     "typebot-js": "^2.2.16"
   },
   "devDependencies": {

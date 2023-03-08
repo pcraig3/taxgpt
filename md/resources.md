@@ -4,6 +4,13 @@ subhead: 'If you can’t find it here, it’s probably on r/cantax'
 meta: 'Resources to help you file taxes for free in Canada. Even accounting for 10% inflation, $0 is still $0.'
 ---
 
+<div class="table-of-contents--wrapper">
+<div class="table-of-contents--header">On this page</div>
+
+${toc}
+
+</div>
+
 TaxGPT is an experimental AI chatbot advisor to help Canadians better understand their options for free tax filing. TaxGPT’s goal is to empower Canadians with simple tax situations to consider filing their own returns.
 
 **TaxGPT is not sponsored by any company, it’s a 100% free service with no affiliations.**

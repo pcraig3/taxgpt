@@ -4,6 +4,13 @@ subhead: 'Everything you want to know and plenty you don’t.'
 meta: 'About TaxGPT & FAQ. Lots of answers, including: No, I am not sponsored by Wealthsimple.'
 ---
 
+<div class="table-of-contents--wrapper">
+<div class="table-of-contents--header">On this page</div>
+
+${toc}
+
+</div>
+
 ## About
 
 TaxGPT is an experimental AI chatbot advisor to help Canadians better understand their options for free tax filing. TaxGPT is under active development, so the question flow or the specific wording may change between releases.
