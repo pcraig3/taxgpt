@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       {process.env.NODE_ENV === 'production' && (
-        <GoogleAnalytics trackPageViews gaMeasurementId={'G-PVN930XJHE'} />
+        <GoogleAnalytics trackPageViews gaMeasurementId={process.env.ANALYTICS_ID} />
       )}
       <Component {...pageProps} />
     </>
