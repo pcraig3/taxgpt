@@ -9,17 +9,17 @@
 - "On this page" widget for long content
 - Save opened chat instead of resetting it
 - CSS wave for the logo
+- Deploy through Github automatically
 
 # BEFORE LAUNCH
 
 - Remove noindex
-- update README
-- Connect to ChatGPT
-- Deploy through Github otherwise we can’t build the container
-  - Or just run the steps locally
 
 # DONE
 
+- Connect to ChatGPT
+  - Just run the steps locally
+- update README
 - Generic 404 page
 - Clean up resources page
 - Links to headers in markdown
