@@ -42,6 +42,9 @@ const securityHeaders = [
 
 const nextConfig = {
   reactStrictMode: true,
+  env: {
+    GITHUB_SHA: process.env.GITHUB_SHA || 'not set: next config',
+  },
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },

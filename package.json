@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "PORT=3000 npm run start:production",
+    "start:production": "next start -p $PORT",
     "lint": "next lint"
   },
   "dependencies": {
@@ -17,6 +18,7 @@
     "markdown-it-toc-done-right": "^4.2.0",
     "next": "13.1.6",
     "nextjs-google-analytics": "^2.3.3",
+    "openai": "^3.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typebot-js": "^2.2.16"
