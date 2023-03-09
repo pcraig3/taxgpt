@@ -2,21 +2,16 @@
 
 - Add Github hash as part of auto deploy
 - Github actions autodeploy
-- Create an actual API endpoint to hit ChatGPT
 - Run an axe scan
 - Test with a keyboard
 - Should I make the button jiggle? It's hard out here without a design team.
-- "On this page" widget for long content
 - Save opened chat instead of resetting it
 - CSS wave for the logo
-- Deploy through Github automatically
-
-# BEFORE LAUNCH
-
-- Remove noindex
+- Count down the days for tax filing
 
 # DONE
 
+- Remove noindex
 - Connect to ChatGPT
   - Just run the steps locally
 - update README

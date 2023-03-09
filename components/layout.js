@@ -10,7 +10,6 @@ export default function Layout({ children, mainClass = '', header = true }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="robots" content="noindex" />
 
         {process.env.GITHUB_SHA ? (
           <meta name="GITHUB_SHA" content={process.env.GITHUB_SHA} />
