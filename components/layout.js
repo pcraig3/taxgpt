@@ -12,10 +12,9 @@ export default function Layout({ children, mainClass = '', header = true }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="noindex" />
 
-        {/* TODO REMOVE */}
-        <meta name="NEXT_PUBLIC_VAR" content={process.env.NEXT_PUBLIC_VAR} />
-        <meta name="GITHUB_SHA" content={process.env.GITHUB_SHA} />
-        <meta name="ENV_ARG" content={process.env.ENV_ARG} />
+        {process.env.GITHUB_SHA ? (
+          <meta name="GITHUB_SHA" content={process.env.GITHUB_SHA} />
+        ) : null}
 
         {/* FAVICON */}
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />

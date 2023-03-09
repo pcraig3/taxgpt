@@ -10,6 +10,7 @@ npm-debug.log
 *.env
 coverage/
 .vscode/
+scripts/
 
 # things we don't want in the container
 Dockerfile
