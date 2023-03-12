@@ -8,9 +8,13 @@
 - Save opened chat instead of resetting it
 - CSS wave for the logo
 - Count down the days for tax filing
+- Scroll down when the page loads
 
 # DONE
 
+- Share links under the chat
+- Adjust svg colours
+- Fix list spacing for text-based pages
 - Remove noindex
 - Connect to ChatGPT
   - Just run the steps locally

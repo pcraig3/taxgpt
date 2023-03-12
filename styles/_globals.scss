@@ -83,7 +83,7 @@ h2 {
 }
 
 li {
-  margin-block-end: vars.$space-xs;
+  margin-block-end: vars.$space-sm;
 }
 
 .wordmark {
@@ -103,6 +103,12 @@ article {
   a[href="#top"] {
     display: inline-block;
     margin-block-start: vars.$space-xxl;
+  }
+
+  @include mixins.mobile {
+    ul {
+      margin-inline-start: vars.$space-md;
+    }
   }
 }
 

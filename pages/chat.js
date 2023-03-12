@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Layout from '../components/layout'
 import Preamble from '../components/preamble'
 import TypebotComponent from '../components/typebot'
+import Share from '../components/share'
 import { Robot } from '../components/icons'
 
 export default function Chat() {
@@ -40,8 +41,11 @@ export default function Chat() {
         <Preamble />
       </div>
       <div className="index--right">
-        <div ref={ref} className="chat-container chat-container--open">
+        <div ref={ref} className="chat-container chat-container--open" id="chat-container">
           <TypebotComponent height={`${height}px`} />
+        </div>
+        <div className="share--buttons share--buttons--chat">
+          <Share />
         </div>
       </div>
     </Layout>

@@ -40,6 +40,18 @@
       margin-block-end: vars.$space-lg;
     }
 
+    @include mixins.mobile {
+      span {
+        margin-block-start: 3px;
+      }
+    }
+
+    .button {
+      svg {
+        width: 30px;
+      }
+    }
+
     &:first-of-type .button {
       width: 100%;
       background: vars.$color-red;
@@ -94,6 +106,7 @@
 
     > svg {
       margin-inline-end: vars.$space-md;
+      fill: vars.$color-red;
     }
 
     &:hover, &:focus {
@@ -101,15 +114,11 @@
       background: white;
       border: 3px solid vars.$color-red;
       box-shadow: none;
-
-      > svg {
-        fill: vars.$color-red;
-      }
     }
   }
 }
 
-.index--share {
+.share--buttons {
   display: flex;
   align-items: center;
   align-content: space-between;
@@ -117,6 +126,14 @@
   border-radius: 50px;
   padding: 10px 10px 10px 50px;
   margin-bottom: vars.$space-lg;
+
+  &.share--buttons--chat {
+    border-radius: 15px;
+
+    @include mixins.desktop {
+      display: none;
+    }
+  }
 
   > div {
     flex: 1;
@@ -129,6 +146,7 @@
 
   li {
     display: inline-block;
+    margin-block-end: 0;
 
     &:not(:last-of-type) {
       a.button {

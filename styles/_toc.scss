@@ -41,13 +41,18 @@
     }
 
     ol li ol {
-      margin-left: 0px;
+      margin-inline-start: vars.$space-xl;
 
-      li:before {
+      li {
+        position: relative;
+
+        &:before {
           content: "☞";
-          margin-right: .5rem;
+          left: calc(-1 * (vars.$space-xl));
+          top: -1px;
+          position: absolute;
         }
       }
     }
-  
+  }
 }

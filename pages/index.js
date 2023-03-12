@@ -5,7 +5,8 @@ import Link from 'next/link'
 
 import Layout from '../components/layout'
 import Preamble from '../components/preamble'
-import { About, Doc, FB, Robot, Talk, Twitter, WhatsApp } from '../components/icons'
+import Share from '../components/share'
+import { About, Doc, FB, Robot, Talk } from '../components/icons'
 
 export default function Index() {
   return (
@@ -28,9 +29,8 @@ export default function Index() {
             <Robot className="logo logo--index" />
             <h1 className="wordmark">TaxGPT</h1>
           </Link>
+          <FB width="0" height="0" aria-hidden="true" />
         </div>
-        <FB width="0" height="0" aria-hidden="true" />
-
         <Preamble />
       </div>
       <div className="index--right">
@@ -39,59 +39,24 @@ export default function Index() {
             <li>
               <Link href="/chat" className="button">
                 <span>Let’s chat!</span>
-                <Talk width="32" />
+                <Talk />
               </Link>
             </li>
             <li>
               <Link href="/pages/about" className="button">
                 <span>About TaxGPT</span>
-                <About height="30" />
+                <About />
               </Link>
             </li>
             <li>
               <Link href="/pages/resources" className="button">
                 <span>Resources</span>
-                <Doc width="32" />
+                <Doc />
               </Link>
             </li>
             <li>
-              <div className="index--share">
-                <div>Share</div>
-                <ul>
-                  <li>
-                    <a
-                      href="https://twitter.com/intent/tweet?text=Try%20out%20TaxGPT%2C%20Canada%E2%80%99s%20AI%20tax%20assistant!&url=https%3A%2F%2Ftaxgpt.ca&related=pcraig3%2C%20Creator%20of%20TaxGPT"
-                      className="button button--share"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span className="visually-hidden">Share on Twitter</span>
-                      <Twitter />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaxgpt.ca"
-                      className="button button--share"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span className="visually-hidden">Share on Facebook</span>
-                      <FB />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://wa.me/?text=Try%20out%20TaxGPT%2C%20Canada%E2%80%99s%20AI%20tax%20assistant!%0ahttps%3A%2F%2Ftaxgpt.ca"
-                      className="button button--share"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span className="visually-hidden">Share on WhatsApp</span>
-                      <WhatsApp />
-                    </a>
-                  </li>
-                </ul>
+              <div className="share--buttons">
+                <Share />
               </div>
             </li>
           </ul>

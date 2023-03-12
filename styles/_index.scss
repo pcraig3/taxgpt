@@ -117,7 +117,7 @@
       }
 
       @include mixins.tablet-mobile {
-        margin-bottom: vars.$space-xxl;
+        margin-bottom: vars.$space-lg;
       }
 
       @include mixins.desktop {
