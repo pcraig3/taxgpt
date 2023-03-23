@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
   const router = useRouter()
   const [chatVisit, setChatVisit] = useState(0)
 
-  const incrementChatVisit = () => {
+  var incrementChatVisit = () => {
     setChatVisit(chatVisit + 1)
   }
 
@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }) {
     if (router.asPath === '/chat') {
       incrementChatVisit()
     }
-  }, [router])
+  }, [router]) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <>

@@ -9,11 +9,10 @@ import TypebotComponent from '../components/typebot'
 import Share from '../components/share'
 import { Robot } from '../components/icons'
 
-export default function Chat(props) {
+export default function Chat({ chatVisit = 0 }) {
   const [height, setHeight] = useState(0)
   const ref = useRef(null)
 
-  console.log(props)
   useEffect(() => {
     setHeight(ref.current.clientHeight)
   }, [])
@@ -43,7 +42,7 @@ export default function Chat(props) {
       </div>
       <div className="index--right">
         <div ref={ref} className="chat-container chat-container--open" id="chat-container">
-          <TypebotComponent height={`${height}px`} />
+          <TypebotComponent height={`${height}px`} chatVisit={parseInt(chatVisit) || 0} />
         </div>
         <div className="share--buttons share--buttons--chat">
           <Share />

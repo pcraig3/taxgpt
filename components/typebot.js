@@ -1,15 +1,14 @@
-import { useEffect } from 'react'
-import Typebot from 'typebot-js'
+import { Standard } from '@typebot.io/react'
 
-const TypebotComponent = ({ height = '400px' }) => {
-  useEffect(() => {
-    Typebot.initContainer('typebot-container', {
-      url: `https://viewer.typebot.io/${process.env.TYPEBOT_ID}`,
-    })
-  }, [])
-
+const TypebotComponent = ({ height = '400px', chatVisit }) => {
   return process.env.TYPEBOT_ID ? (
-    <div id="typebot-container" style={{ width: '100%', height }} />
+    <Standard
+      typebot={process.env.TYPEBOT_ID}
+      style={{ width: '100%', height }}
+      prefilledVariables={{
+        returnVisitor: chatVisit,
+      }}
+    />
   ) : (
     <p>Oops, something went wrong with your Typebot ID</p>
   )
