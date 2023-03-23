@@ -9,10 +9,11 @@ import TypebotComponent from '../components/typebot'
 import Share from '../components/share'
 import { Robot } from '../components/icons'
 
-export default function Chat() {
+export default function Chat(props) {
   const [height, setHeight] = useState(0)
   const ref = useRef(null)
 
+  console.log(props)
   useEffect(() => {
     setHeight(ref.current.clientHeight)
   }, [])
