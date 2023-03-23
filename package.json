@@ -10,20 +10,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint": "8.34.0",
-    "eslint-config-next": "13.1.6",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
     "gray-matter": "^4.0.3",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.7",
     "markdown-it-toc-done-right": "^4.2.0",
-    "next": "13.1.6",
+    "next": "13.2.4",
     "nextjs-google-analytics": "^2.3.3",
     "openai": "^3.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typebot-js": "^2.2.16"
+    "typebot-js": "^2.2.17"
   },
   "devDependencies": {
-    "sass": "^1.58.3"
+    "sass": "^1.59.3"
   }
 }
