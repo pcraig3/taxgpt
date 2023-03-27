@@ -34,3 +34,6 @@ yarn-error.log*
 
 # api
 pages/api/*
+
+# screenshots
+screens/
