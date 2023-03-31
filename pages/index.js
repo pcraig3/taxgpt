@@ -12,10 +12,10 @@ export default function Index() {
   return (
     <Layout mainClass="index" header={false}>
       <Head>
-        <title>TaxGPT — Canada’s AI tax assistant</title>
+        <title>TaxGPT — Canada’s AI tax advisor</title>
         <meta
           name="description"
-          content="TaxGPT is a friendly AI assistant who helps Canadians find free tax-filing options."
+          content="TaxGPT is a friendly AI advisor who helps Canadians find free tax-filing options."
         />
         <link rel="canonical" href="https://taxgpt.ca"></link>
 

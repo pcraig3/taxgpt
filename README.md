@@ -1,7 +1,7 @@
 <div align="center">
   <img alt="Logo" src="./public/android-chrome-192x192.png" width="100" />
   <h1>TaxGPT</h1>
-  <p><em>Canada’s AI tax assistant.</em></p>
+  <p><em>Canada’s AI tax advisor.</em></p>
 </div>
 
 <br />

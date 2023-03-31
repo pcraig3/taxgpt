@@ -7,7 +7,7 @@ function Share() {
       <ul>
         <li>
           <a
-            href="https://twitter.com/intent/tweet?text=Try%20out%20TaxGPT%2C%20Canada%E2%80%99s%20AI%20tax%20assistant!&url=https%3A%2F%2Ftaxgpt.ca&related=pcraig3%2C%20Creator%20of%20TaxGPT"
+            href="https://twitter.com/intent/tweet?text=Try%20out%20TaxGPT%2C%20Canada%E2%80%99s%20AI%20tax%20advisor!&url=https%3A%2F%2Ftaxgpt.ca&related=pcraig3%2C%20Creator%20of%20TaxGPT"
             className="button button--share"
             target="_blank"
             rel="noreferrer"
@@ -29,7 +29,7 @@ function Share() {
         </li>
         <li>
           <a
-            href="https://wa.me/?text=Try%20out%20TaxGPT%2C%20Canada%E2%80%99s%20AI%20tax%20assistant!%0ahttps%3A%2F%2Ftaxgpt.ca"
+            href="https://wa.me/?text=Try%20out%20TaxGPT%2C%20Canada%E2%80%99s%20AI%20tax%20advisor!%0ahttps%3A%2F%2Ftaxgpt.ca"
             className="button button--share"
             target="_blank"
             rel="noreferrer"
