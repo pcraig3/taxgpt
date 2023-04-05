@@ -13,7 +13,7 @@ const basicPersonalAmount = {
   QC: 16143,
   SK: 16615,
   YT: 14398,
-};
+}
 
 const ageAmount = {
   CA: 7898,
@@ -30,117 +30,119 @@ const ageAmount = {
   QC: 3395,
   SK: 5061,
   YT: 7898,
-};
+}
 
 const getAbbr = (region) => {
   switch (region) {
-    case "Alberta":
-      return "AB";
-    case "British Columbia":
-      return "BC";
-    case "Manitoba":
-      return "MB";
-    case "New Brunswick":
-      return "NB";
-    case "Newfoundland":
-      return "NL";
-    case "Northwest Territories":
-      return "NT";
-    case "Nunavut":
-      return "NU";
-    case "Ontario":
-      return "ON";
-    case "PEI":
-      return "PE";
-    case "Quebec":
-      return "QC";
-    case "Saskatchewan":
-      return "SK";
-    case "Yukon":
-      return "YT";
+    case 'Alberta':
+      return 'AB'
+    case 'British Columbia':
+      return 'BC'
+    case 'Manitoba':
+      return 'MB'
+    case 'New Brunswick':
+      return 'NB'
+    case 'Newfoundland':
+      return 'NL'
+    case 'Northwest Territories':
+      return 'NT'
+    case 'Nova Scotia':
+      return 'NS'
+    case 'Nunavut':
+      return 'NU'
+    case 'Ontario':
+      return 'ON'
+    case 'PEI':
+      return 'PE'
+    case 'Quebec':
+      return 'QC'
+    case 'Saskatchewan':
+      return 'SK'
+    case 'Yukon':
+      return 'YT'
     default:
-      return "CA";
+      return 'CA'
   }
-};
+}
 
 const minPersonalAmount = (region, isSenior = false) => {
-  let canadaAmount = basicPersonalAmount["CA"];
-  let regionAmount = basicPersonalAmount[region];
+  let canadaAmount = basicPersonalAmount['CA']
+  let regionAmount = basicPersonalAmount[region]
 
   if (!region) {
-    return canadaAmount;
+    return canadaAmount
   }
 
   if (!regionAmount) {
-    return null; // TODO: maybe error?
+    return null // TODO: maybe error?
   }
 
   if (isSenior) {
-    canadaAmount += ageAmount["CA"];
-    regionAmount += ageAmount[region];
+    canadaAmount += ageAmount['CA']
+    regionAmount += ageAmount[region]
   }
 
   return canadaAmount < regionAmount
-    ? { region: "CA", basicPersonalAmount: canadaAmount }
-    : { region, basicPersonalAmount: regionAmount };
-};
+    ? { region: 'CA', basicPersonalAmount: canadaAmount }
+    : { region, basicPersonalAmount: regionAmount }
+}
 
 const printResult = (_region, _isSenior) => {
-  const { region, basicPersonalAmount } = minPersonalAmount(_region, _isSenior);
+  const { region, basicPersonalAmount } = minPersonalAmount(_region, _isSenior)
   return `If you are from ${_region}${
-    _isSenior ? " and you are over 65" : ""
-  }, your lower BPA is $${basicPersonalAmount} from ${region}`;
-};
+    _isSenior ? ' and you are over 65' : ''
+  }, your lower BPA is $${basicPersonalAmount} from ${region}`
+}
 
 const situations = [
   {
-    region: "AB",
+    region: 'AB',
     isSenior: true,
   },
   {
-    region: "AB",
+    region: 'AB',
     isSenior: false,
   },
   {
-    region: "PE",
+    region: 'PE',
     isSenior: true,
   },
   {
-    region: "PE",
+    region: 'PE',
     isSenior: false,
   },
   {
-    region: "ON",
+    region: 'ON',
     isSenior: true,
   },
   {
-    region: "ON",
+    region: 'ON',
     isSenior: false,
   },
   {
-    region: "MB",
+    region: 'MB',
     isSenior: true,
   },
   {
-    region: "MB",
+    region: 'MB',
     isSenior: false,
   },
   {
-    region: "NS",
+    region: 'NS',
     isSenior: true,
   },
   {
-    region: "NS",
+    region: 'NS',
     isSenior: false,
   },
   {
-    region: "QC",
+    region: 'QC',
     isSenior: true,
   },
   {
-    region: "QC",
+    region: 'QC',
     isSenior: false,
   },
-];
+]
 
-situations.forEach((s) => console.log(printResult(s.region, s.isSenior)));
+situations.forEach((s) => console.log(printResult(s.region, s.isSenior)))
