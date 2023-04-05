@@ -141,3 +141,11 @@ del {
     }
   }
 }
+
+.small-text {
+  font-size: .85em;
+
+  p:not(:first-of-type) {
+    margin-top: .85em;
+  }
+}

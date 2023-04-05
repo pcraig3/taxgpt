@@ -29,6 +29,14 @@ Here are some links to help you file for free.
 - [Free or pay-what-you-want tax software](https://www.canada.ca/en/revenue-agency/services/e-services/e-services-individuals/netfile-overview/certified-software-netfile-program.html#h_1): all free tax-filing software in Canada approved by the CRA.
 - [File my Return automated phone service](https://www.canada.ca/en/revenue-agency/campaigns/file-my-return.html): auto-file over the phone for eligible filers.
 
+<div class="small-text">
+
+Note that if you have moved in 2022, ensure you [contact the Canada Revent Agency](https://www.canada.ca/en/revenue-agency/corporate/contact-information.html) to change your address on file before to filing your return.
+
+Similarly, if you have pension income from Service Canada ([OAS](https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security.html) or [CPP](https://www.canada.ca/en/services/benefits/publicpensions/cpp.html) benefits), [contact Service Canada](https://www.canada.ca/en/contact.html) to ensure your address on file is correct.
+
+</div>
+
 ### Canada Revenue Agency
 
 The [Canada Revenue Agency (CRA)](https://www.canada.ca/en/revenue-agency.html) is Canada’s tax agency. Here are some useful links:
@@ -63,6 +71,8 @@ CVITP is a bad acronym but a good program. It is a national network of **volunte
 [CVITP’s eligibility criteria](https://www.canada.ca/en/revenue-agency/services/tax/individuals/community-volunteer-income-tax-program/lend-a-hand-individuals/about.html) defines maximum income levels as well.
 
 If you are interested, you can [search for a CVITP clinic near you](https://www.canada.ca/en/revenue-agency/services/tax/individuals/community-volunteer-income-tax-program/need-a-hand-complete-your-tax-return.html#freeclinic).
+
+If you are going to a tax clinic, ensure you have all your information and ID with you. If you are missing any income slips, the volunteer should be able to retreive those for you.
 
 ### What are my options for self-filing online?
 

@@ -87,6 +87,16 @@ That’s why I highlight Wealthsimple Tax specifically. It’s a well-designed, 
 
 If you believe another free tax-filing product without dark design patterns should be featured by TaxGPT, [get in touch](mailto:paul@pcraig3.ca) and I’ll look into it.
 
+### Is TaxGPT a dangerous experiment? What about the risk of wrong answers?
+
+Many people are intimidated by tax filing and feel like they have to be an expert or pay an expert to receive credible tax-filing advice.
+
+TaxGPT provides a simple user experience around the complex subject of taxes, in a way that is friendly and encouraging, rather than being overly technical or undermining confidence. It doesn’t know every answer to every question (and it’s not great at calculations), but it _is_ a helpful introduction to tax info.
+
+TaxGPT isn’t perfect, but it’s better than avoiding the subject entirely, and there’s no perverse incentive here. It’s something you can use from your home, and you can use for for free, and [it doesn’t try to profit](#are-you-making-money-from-this%3F) from people’s confusion.
+
+In the end, TaxGPT is an _advisor_, not an assistant. It gives you _advice_ on where to file and how, but it doesn’t _assist_ you in completing your return. [It doesn’t file taxes for you](#can-i-file-taxes-through-taxgpt%3F), but it can make it easier to get started.
+
 ### “There’s a problem with the quiz”
 
 Great, that’s just the feedback I am looking for. Please reach out and I will do my best to address it.
