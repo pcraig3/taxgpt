@@ -15,7 +15,7 @@ export default function Index() {
         <title>TaxGPT — Canada’s AI tax advisor</title>
         <meta
           name="description"
-          content="TaxGPT is a friendly AI advisor who helps Canadians find free tax-filing options."
+          content="TaxGPT is a friendly AI chatbot who helps Canadians find free tax-filing options."
         />
         <link rel="canonical" href="https://taxgpt.ca"></link>
 
@@ -24,12 +24,13 @@ export default function Index() {
         <meta property="og:url" content="https://taxgpt.ca" />
       </Head>
       <div className="index--left">
+        <FB width="0" height="0" aria-hidden="true" />
+
         <div className="site-title">
           <Link href="/">
             <Robot className="logo logo--index" />
             <h1 className="wordmark">TaxGPT</h1>
           </Link>
-          <FB width="0" height="0" aria-hidden="true" />
         </div>
         <Preamble />
       </div>

@@ -13,9 +13,25 @@ ${toc}
 
 </details>
 
+## Disclaimer
+
+TaxGPT’s “ask a question” feature uses [ChatGPT](https://openai.com/blog/chatgpt)’s AI to return general information about Canada’s tax system, and is intended for a beginner audience. The intent is to provide a friendly and approachable way to start learning about taxes, not to solve for complex scenarios.
+
+TaxGPT is **not** a tax calculator or a professional tax advisor: it can’t accurately calculate taxes owed for specific income amounts and it can’t reliably make specific recommendations for your scenario.
+
+Avoid questions that:
+
+- Include personal information (eg, your name or contact information)
+- Ask for calculations about specific income amounts
+- Describe complex tax scenarios (eg, questions related to business income)
+
+The more complex your question is, the less likely you are to receive a relevant response.
+
+Questions and responses are saved by [Typebot](https://typebot.io/) and are used to improve the service, but they are anonymous and cannot be tied back to you in any way.
+
 ## About
 
-TaxGPT is an AI chatbot advisor who help Canadians find free tax-filing options. TaxGPT is under active development, so the question flow or the specific wording may change between releases.
+TaxGPT is an AI chatbot advisor who helps Canadians find free tax-filing options, and answers general questions about taxes. TaxGPT is under active development, so the question flow or the specific wording may change between releases.
 
 **TaxGPT is not sponsored by any company, it’s a 100% free service with no affiliations.**
 
@@ -57,9 +73,9 @@ No. You can browse [the Canada Revenue Agency’s list of approved NETFILE softw
 
 ### What happens to my data?
 
-TaxGPT needs general information about your province of residence and financial situation to make tailored recommendations about free tax-filing. **However, your answers can’t be used to identify you in any way**.
+TaxGPT needs general information about your province of residence and financial situation to make tailored recommendations about free tax-filing. Questions you type in and the responses to them are saved by [Typebot](https://typebot.io/), and are used to improve the service. **However, no personal information is collected, which means responses can’t be used to identify you in any way**.
 
-I analyze the results to see how TaxGPT is performing and improve the service.
+I analyze the results to see how TaxGPT is performing and make regular improvements.
 
 ### Are you making money from this?
 
@@ -89,13 +105,13 @@ If you believe another free tax-filing product without dark design patterns shou
 
 ### Is TaxGPT a dangerous experiment? What about the risk of wrong answers?
 
-Many people are intimidated by tax filing and feel like they have to be an expert or pay an expert to receive credible tax-filing advice.
+Many people are intimidated by tax filing and feel like they have to be an expert or pay an expert to engage with the subject of taxes.
 
-TaxGPT provides a simple user experience around the complex subject of taxes, in a way that is friendly and encouraging, rather than being overly technical or undermining confidence. It doesn’t know every answer to every question (and it’s not great at calculations), but it _is_ a helpful introduction to tax info.
+TaxGPT provides a simple user experience around the complex subject of taxes, in a way that is friendly and encouraging, rather than being overly technical or undermining confidence. It is intended to be a helpful introduction to tax information. As mentioned in [the disclaimer above](/pages/about#disclaimer), it is _not_ good at understanding specific complex scenarios, and it is _not_ a tax calculator (if you need one, try the [2022 Canada Income Tax Calculator](https://www.wealthsimple.com/en-ca/tool/tax-calculator)).
 
-TaxGPT isn’t perfect, but it’s better than avoiding the subject entirely, and there’s no perverse incentive here. It’s something you can use from your home, and you can use for for free, and [it doesn’t try to profit](#are-you-making-money-from-this%3F) from people’s confusion.
+TaxGPT has its limitations, but it’s better than avoiding the subject entirely, and there’s no perverse incentive here. It’s something you can use from your home, you can use for free, and [it doesn’t try to profit](#are-you-making-money-from-this%3F) from people’s confusion.
 
-In the end, TaxGPT is an _advisor_, not an assistant. It gives you _advice_ on where to file and how, but it doesn’t _assist_ you in completing your return. [It doesn’t file taxes for you](#can-i-file-taxes-through-taxgpt%3F), but it can make it easier to get started.
+In the end, TaxGPT is an _advisor_, not an assistant. It gives _advice_ on how to file your taxes for free, but it doesn’t _assist_ you in completing your return. [It doesn’t file taxes for you](#can-i-file-taxes-through-taxgpt%3F), but it can make it easier to get started.
 
 ### “There’s a problem with the quiz”
 

@@ -8,11 +8,11 @@ function Preamble() {
       <div className="preamble--index">
         <p>
           TaxGPT is a friendly AI advisor who helps Canadians understand their options for free tax
-          filing.
+          filing, and answers general tax questions.
         </p>
         <p>
-          <strong>TaxGPT gives advice</strong>. It doesn’t collect personal data or file your taxes
-          for you.
+          <strong>TaxGPT gives advice</strong>. It can’t calculate your taxes or file your taxes for
+          you.
         </p>
       </div>
       <div className="preamble--chat">
