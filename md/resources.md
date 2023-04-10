@@ -72,7 +72,7 @@ CVITP is a bad acronym but a good program. It is a national network of **volunte
 
 If you are interested, you can [search for a CVITP clinic near you](https://www.canada.ca/en/revenue-agency/services/tax/individuals/community-volunteer-income-tax-program/need-a-hand-complete-your-tax-return.html#freeclinic).
 
-If you are going to a tax clinic, ensure you have all your information and ID with you. If you are missing any income slips, the volunteer should be able to retreive those for you.
+If you are going to a tax clinic, ensure you have all your information and ID with you. If you are missing any income slips, the volunteer should be able to retrieve them for you.
 
 ### What are my options for self-filing online?
 

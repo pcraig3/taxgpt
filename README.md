@@ -1,12 +1,12 @@
 <div align="center">
   <img alt="Logo" src="./public/android-chrome-192x192.png" width="100" />
   <h1>TaxGPT</h1>
-  <p><em>Canada’s AI tax advisor.</em></p>
+  <p><em>Canada’s AI tax chatbot.</em></p>
 </div>
 
 <br />
 
-This is a tiny little [Next.js](https://expressjs.com/) app to help Canadians find relevant options to file their taxes for free.
+This is a tiny little [Next.js](https://expressjs.com/) app to help Canadians find relevant options to file their taxes for free, and ask general questions about taxes in Canada.
 
 - **TaxGPT is not sponsored by any company, it’s a 100% free service with no affiliations.**
 - TaxGPT is also **not a Government of Canada service**.

@@ -7,12 +7,12 @@ function Preamble() {
     <div className="preamble">
       <div className="preamble--index">
         <p>
-          TaxGPT is a friendly AI advisor who helps Canadians understand their options for free tax
+          TaxGPT is a friendly AI chatbot who helps Canadians understand their options for free tax
           filing, and answers general tax questions.
         </p>
         <p>
-          <strong>TaxGPT gives advice</strong>. It can’t calculate your taxes or file your taxes for
-          you.
+          <strong>TaxGPT gives information</strong>. It can’t calculate your taxes or file your
+          taxes for you.
         </p>
       </div>
       <div className="preamble--chat">

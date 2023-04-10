@@ -20,7 +20,7 @@ export default function Chat({ chatVisit = 0 }) {
   return (
     <Layout mainClass="index index--chat" header={false}>
       <Head>
-        <title>Chat with TaxGPT — Canada’s AI tax advisor</title>
+        <title>Chat with TaxGPT — Canada’s AI tax chatbot</title>
         <meta
           name="description"
           content="Chat with TaxGPT to get recommendations for free tax-filing options."
