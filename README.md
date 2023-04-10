@@ -10,7 +10,6 @@ This is a tiny little [Next.js](https://expressjs.com/) app to help Canadians fi
 
 - **TaxGPT is not sponsored by any company, it’s a 100% free service with no affiliations.**
 - TaxGPT is also **not a Government of Canada service**.
-  - You can [chat with Charlie the Chatbot](https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax.html) on the Canada Revenue Agency’s website (bottom right), but he doesn’t seem like he would be fun at a party.
 - I used [Typebot](https://typebot.io) for the chatbot interaction.
 - The adorable [Canadian maple leaf mascot](https://github.com/pcraig3/tax-gpt/blob/main/public/android-chrome-512x512.png) is [Tyler Benning](https://www.tylerbenning.com)’s.
 

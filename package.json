@@ -10,21 +10,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@typebot.io/js": "^0.0.29",
-    "@typebot.io/react": "^0.0.29",
-    "eslint": "8.36.0",
-    "eslint-config-next": "13.2.4",
+    "@typebot.io/js": "^0.0.34",
+    "@typebot.io/react": "^0.0.34",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
     "gray-matter": "^4.0.3",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.7",
     "markdown-it-toc-done-right": "^4.2.0",
-    "next": "13.2.4",
+    "next": "13.3.0",
     "nextjs-google-analytics": "^2.3.3",
     "openai": "^3.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "sass": "^1.59.3"
+    "sass": "^1.61.0"
   }
 }
