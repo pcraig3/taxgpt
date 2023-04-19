@@ -21,7 +21,7 @@ export async function getStaticPaths() {
 
 export default function Page({ pageData }) {
   return (
-    <Layout className="page">
+    <Layout mainClass={`page page--${pageData.title.split(' ').shift().toLowerCase()}`}>
       <Head>
         <title>{`${pageData.title} — TaxGPT`}</title>
 

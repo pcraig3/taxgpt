@@ -53,6 +53,13 @@ header {
   }
 }
 
+.index .site-title a .wordmark {
+  @include mixins.desktop {
+    margin-inline-start: 0;
+  }
+}
+
+
 nav {
   .nav--sm {
     display: block;
