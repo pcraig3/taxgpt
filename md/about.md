@@ -103,7 +103,7 @@ We don’t need “voting professionals” to fill out ballots for us during ele
 
 That’s why I highlight Wealthsimple Tax specifically. It’s a well-designed, completely free tax-filing product without paid-for ‘premium’ features or trying to upsell you to an expert.
 
-If you believe another free tax-filing product without dark design patterns should be featured by TaxGPT, ~GET IN TOUCH and I’ll look into it.
+If you believe another free tax-filing product without dark design patterns should be featured by TaxGPT, <span class="email--swap" data-email="cGF1bEBwY3JhaWcuY2E=" data-text="get in touch">get in touch with “paul [a] pcraig [dot] ca”</span> and I’ll look into it.
 
 ### Is TaxGPT a dangerous experiment? What about the risk of wrong answers?
 

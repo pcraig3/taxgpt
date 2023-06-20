@@ -149,3 +149,8 @@ del {
     margin-top: .85em;
   }
 }
+
+/* for obfuscating emails. Idea comes from https://mauriciorobayo.github.io/react-obfuscate-email/?path=/docs/react-obfuscate-email--mail */
+a > span.roe::after {
+  content: "@";
+}

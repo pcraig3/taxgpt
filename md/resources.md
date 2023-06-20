@@ -88,4 +88,4 @@ Read “[How to File Taxes Online for Free in Canada](https://www.wealthsimple.c
 
 ### “I think you should add \_\_\_”
 
-Not seeing something here that you expected? Reach out to me at [paul@pcraig3.ca](mailto:paul@pcraig3.ca) and let me know.
+Not seeing something here that you expected? Reach out to me at <span class="email--swap" data-email="cGF1bEBwY3JhaWcuY2E=">“paul [a] pcraig [dot] ca”</span> and let me know.
