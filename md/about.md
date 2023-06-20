@@ -45,13 +45,13 @@ The [Canadian maple leaf](/robot.svg) mascot is [Tyler Benning’s](https://tyle
 
 ### Contact
 
-If you spot an error, want to make a suggestion, or just want to give me a virtual high-five, please reach out to me at [paul@pcraig3.ca](mailto:paul@pcraig3.ca).
+If you spot an error, want to make a suggestion, or just want to give me a virtual high-five, please reach out to me at <span class="email--swap" data-email="cGF1bEBwY3JhaWcuY2E=">“paul [a] pcraig [dot] ca”</span>.
 
 I am kind of a one-person team over here, so there are likely some rough edges.
 
 ## FAQ
 
-If you have a question that’s not on here, [get in touch](mailto:paul@pcraig3.ca) and I might add it to the list.
+If you have a question that’s not on here, <span class="email--swap" data-email="cGF1bEBwY3JhaWcuY2E=" data-text="Get in touch">get in touch with “paul [a] pcraig [dot] ca”</span> and I might add it to the list.
 
 ### Is TaxGPT a Government of Canada service?
 
@@ -103,7 +103,7 @@ We don’t need “voting professionals” to fill out ballots for us during ele
 
 That’s why I highlight Wealthsimple Tax specifically. It’s a well-designed, completely free tax-filing product without paid-for ‘premium’ features or trying to upsell you to an expert.
 
-If you believe another free tax-filing product without dark design patterns should be featured by TaxGPT, [get in touch](mailto:paul@pcraig3.ca) and I’ll look into it.
+If you believe another free tax-filing product without dark design patterns should be featured by TaxGPT, ~GET IN TOUCH and I’ll look into it.
 
 ### Is TaxGPT a dangerous experiment? What about the risk of wrong answers?
 
