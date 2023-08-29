@@ -1,5 +1,5 @@
 FROM node:18-alpine AS base
-LABEL maintainer="paul@pcraig3.ca"
+LABEL maintainer="paul@pcraig.ca"
 
 # Install dependencies only when needed
 FROM base AS deps
